@@ -1,0 +1,5805 @@
+@charset "utf-8";
+/* CSS Document */
+/* @import fonts */
+
+@import url("custom_fonts.scss");
+body,
+p {
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 300;
+    font-style: normal;
+}
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    color: #372E2C;
+}
+h1 {
+    font-size: 16px;
+}
+h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 12px;
+}
+h4 {
+    font-size: 11px;
+}
+h5 {
+    font-size: 10px;
+}
+h6 {
+    font-size: 9px;
+}
+.breadcrumb.full-width {
+    display: none;
+}
+.clear {
+    clear: both;
+}
+.col-wrapper-404 {
+    display: table;
+    height: auto;
+    margin: 40px auto 20px;
+}
+.left-col-nar {
+    float: left;
+    height: auto;
+    margin: 0;
+}
+.left-col-nar #title {
+    font-family: SackersGothicStd-Medium;
+    color: #ff4612 !important;
+    font-size: 23px !important;
+    line-height: 120% !important;
+    margin: 40px 0 10px !important;
+    text-transform: uppercase;
+}
+#shop-btn-wrapper {
+    display: inline-block;
+    margin: 25px auto 15px;
+    width: 100%;
+}
+#shop-btn {
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: SackersGothicStd-Medium;
+    font-weight: 500;
+    height: 35px;
+    line-height: 36px;
+    margin: 10px auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+}
+.error-page-bottom #cta-1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: MrsEavesOT-Italic !important;
+    font-size: 20px !important;
+    color: #ff4612;
+    font-weight: 100;
+    line-height: 140%;
+}
+#cta-1,
+#cta-1 a,
+#cta-1 a:hover,
+#cta-1 a:link,
+#cta-1 a:active,
+#cta-1 a:visited {
+    color: rgb(255, 70, 18);
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 140%;
+    margin: auto;
+    text-align: center;
+}
+#caret {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border: medium none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: MrsEavesOT-Roman;
+    font-size: 20px;
+    font-weight: 100;
+}
+.col-wrapper-404 input.input-text {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: -moz-use-text-color;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    height: 30px;
+    padding: 0 10px;
+    width: 180px;
+}
+.left-col-nar-ns h1 {
+    color: rgb(255, 70, 18);
+    font-family: SackersGothicStd-Medium;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0;
+    text-transform: uppercase;
+    width: 450px;
+}
+#ital {
+    color: rgb(0, 0, 0);
+    font-family: MrsEavesOT-Italic;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 110%;
+    margin: 10px 0 20px;
+}
+.left-col-nar-ns.col-md-5 > p {
+    font-family: "Gotham A", "Gotham B";
+    font-size: 14px;
+}
+.field.fb-email {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0);
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: rgb(0, 0, 0);
+    float: left;
+    font-family: MrsEavesOT-Italic;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    height: auto;
+    line-height: 16px;
+    max-width: 200px;
+    padding: 7px 20px;
+}
+.newsletter-button {
+    background-color: rgb(255, 255, 255);
+    border: medium none;
+    color: rgb(0, 0, 0);
+    font-family: MrsEavesOT-Roman;
+    font-size: 24px;
+    font-weight: 100;
+    height: auto;
+    margin: 5px 0;
+}
+.right-col-wide-ns {
+    margin-bottom: 30px;
+}
+.body-full-width .full-width-page-content .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.support-in-style {
+    background: rgb(0, 173, 238) none repeat scroll 0 0;
+    padding: 50px 0;
+}
+/* new arrivals page */
+
+.standard-body .full-width .new-arrivals .container {
+    padding-left: 0;
+}
+.new-arrivals .toppin {
+    background-image: url("//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/arival-banner.jpg");
+    background-size: cover;
+    height: 739px;
+    overflow: hidden;
+    width: 100%;
+}
+.new-arrivals .embed-container iframe,
+.new-arrivals .embed-container object,
+.new-arrivals .embed-container embed {
+    top: -50px;
+}
+.new-arrivals .hero {
+    text-align: center;
+}
+.nwa-banner-txt.hero.newarrival-desktop {
+    position: absolute;
+    /* center the element */
+    
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    
+    height: 739px;
+    width: 100%;
+}
+.new-arrivals .hero .title {
+    padding-top: 115px;
+    padding-bottom: 12px;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+.new-arrivals .title .small {
+    display: inline;
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    text-transform: none;
+}
+.new-arrivals .hero .supporting-copy {
+    color: #fff;
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+    margin: 0;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.new-arrivals .hero .supporting-copy-2 {
+    margin: 15px auto 0;
+    text-align: center;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 100;
+}
+.new-arrivals .button-list {
+    display: block;
+    margin: 24px auto 0;
+    width: 600px;
+    height: 40px;
+}
+.new-arrivals .button-list .button-link {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 3px 24px 0 24px;
+  float: right;
+}
+.new-arrivals .button-list {    display: block;
+    width: 600px;
+		margin: 10px auto;
+}
+.new-arrivals .button-list .button-link:nth-child(1) {
+    float: left;
+}
+.new-arrivals .button-list .button-link a,
+.new-arrivals .button-list .button-link a:visited {
+    color: rgb(0, 0, 0);
+}
+.standard-body .full-width .responsive-supportive .container {
+    padding: 0;
+}
+.new-arrivals .responsive-supportive {
+    background-color: rgb(249, 248, 248);
+    margin-top: -50px
+}
+.new-arrivals .responsive-supportive .title {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    color: #ff4612;
+    padding-top: 48px;
+    margin: 0;
+    letter-spacing: 1.3px;
+    padding-bottom: 12px;
+}
+.new-arrivals .responsive-supportive .title > a {
+    color: rgb(255, 70, 18);
+    font-family: SackersGothicStd-Medium;
+    line-height: 26px;
+}
+.new-arrivals .responsive-supportive .col-md-6 {
+    text-align: center;
+}
+.new-arrivals .responsive-supportive .picture-container > img {
+    margin-top: 2px;
+}
+.new-arrivals .responsive-supportive .picture-links .link.ngage {
+    left: 0;
+    padding-bottom: 20px;
+    padding-left: 85px;
+    padding-top: 0;
+    position: relative;
+    top: 140px;
+}
+.new-arrivals .responsive-supportive .picture-links .link.elation {
+    left: 60px;
+    position: relative;
+    top: 430px;
+}
+.new-arrivals .responsive-supportive .picture-links a {
+    color: rgb(102, 102, 102);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0.8px;
+}
+.new-arrivals .responsive-supportive .supporting-copy {
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    letter-spacing: 1.3px;
+}
+.new-arrivals .responsive-supportive .cta {
+    display: block;
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ff4612;
+    letter-spacing: 1.3px;
+    padding-bottom: 12px;
+    margin: 0;
+}
+.new-arrivals .responsive-supportive .col-left img {
+    margin: 12px auto;
+    width: 80%;
+}
+.espadrilles .supporting-copy,
+.whatnew .supporting-copy {
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 90%;
+    letter-spacing: 1.3px !important;
+}
+.espadrilles .esp-left img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+.picture-links {
+    position: absolute;
+    top: 0;
+}
+.espadrilles .picture-container > img {
+    height: 664px;
+}
+.espadrilles .picture-container .picture-links {
+    position: absolute;
+}
+.espadrilles .picture-links {
+    position: absolute;
+    height: 600px;
+}
+.espadrilles .picture-links .link.valeri {
+    color: rgb(102, 102, 102);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    font-weight: normal;
+    left: 160px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    position: relative;
+    top: 60px;
+}
+.espadrilles .picture-links .link.calypso {
+    color: rgb(102, 102, 102);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    font-weight: normal;
+    left: -40px;
+    letter-spacing: 0.8px;
+    line-height: 26px;
+    position: relative;
+    top: 470px;
+}
+.espadrilles .picture-links .link.tansy {
+    bottom: -20px;
+    color: rgb(102, 102, 102);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 26px;
+    position: absolute;
+    right: -160px;
+}
+.espadrilles .esp-left .title {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    padding-top: 44px;
+    color: #ff4612;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.espadrilles .esp-left {
+    text-align: center;
+}
+.espadrilles {
+    border-top: 1px solid rgb(0, 0, 0);
+}
+.new-arrivals .make-it-work {
+    background-color: rgb(249, 248, 248);
+    height: 684px;
+    border-top: 1px solid #000;
+}
+.whatnew {
+    text-align: center;
+}
+.whatnew .title {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    padding-top: 24px;
+    color: #ff4612;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.new-arrivals .make-it-work .picture-container img {
+    height: 552px;
+    left: 100px;
+}
+.whatnew .picture-container {
+    height: 532px;
+    position: relative;
+}
+.whatnew .picture-container .picture-links {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+.whatnew .picture-container .picture-links .link.solana {
+    left: 60%;
+    position: relative;
+    color: rgb(102, 102, 102);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 26px;
+}
+.whatnew .picture-container .picture-links .link.caballo {
+    bottom: 120px;
+    color: rgb(102, 102, 102);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    left: 133px;
+    letter-spacing: 0.8px;
+    position: absolute;
+}
+.whatnew .picture-container .picture-links .link.bria {
+    color: rgb(102, 102, 102);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    position: absolute;
+    right: 80px;
+    top: 50%;
+}
+.support-in-style .title {
+    color: #000;
+    font-family: SackersGothicStd-Medium;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 26px;
+    text-transform: uppercase;
+}
+.support-in-style .text-col {
+    text-align: center;
+}
+.support-in-style .text-col .supporting-copy {
+    font-family: "Gotham A", "Gotham B";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    color: #000;
+}
+.support-in-style .annotation .title {
+    color: rgb(255, 255, 255);
+    font-family: SackersGothicStd-Medium;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 24px;
+    text-align: center;
+}
+.support-in-style .annotation .note {
+    color: #fff;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+}
+.natural-alignment-wrapper {
+    padding: 24px 0 24px 0;
+}
+.elevated-technology > .container {
+    padding: 0 24px 0 24px !important;
+}
+.elevated-technology .title {
+    font-family: SackersGothicStd-Medium, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.3px;
+    padding-top: 10px;
+}
+.elevated-technology p.supporting-copy {
+    font-family: "Gotham A", "Gotham B";
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+    width: 85%;
+}
+.elevated-technology .button-label {
+    border: 1px solid rgb(162, 157, 156);
+    color: rgb(162, 157, 156);
+    display: block;
+    font-family: SackersGothicStd-Medium;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    margin: 28px 0 0 30px;
+    padding: 12px 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color 0.2s ease-in 0s, border-color 0.2s ease-in 0s;
+    width: 245px;
+    height: 36px;
+}
+.elevated-technology .button-label:hover {
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.elevated-technology .cta.highlight,
+.trusted-and-approved .cta.highlight {
+    color: rgb(255, 70, 18);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    padding-right: 30px;
+    letter-spacing: 1.3px;
+}
+.elevated-technology .fancy-list .fancy-list-item-ordinal {
+    font-family: MrsEavesOT-Roman;
+    border: 1px solid #a29d9c;
+    border-radius: 20px;
+    height: 24px;
+    width: 24px;
+    float: left;
+    text-align: center;
+    color: #a29d9c;
+    font-size: 17px;
+    line-height: 20px;
+}
+.elevated-technology .fancy-list .fancy-list-item-content .effect {
+    color: rgb(0, 0, 0);
+    font-family: SackersGothicStd-Medium;
+    font-size: 12px;
+    line-height: 0;
+    padding-left: 30px;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+.elevated-technology .fancy-list .fancy-list-item-content .cause {
+    color: rgb(0, 0, 0);
+    font-family: MrsEavesOT-Italic;
+    font-size: 17px;
+    line-height: 18px;
+    padding-left: 30px;
+}
+.elevated-technology .fancy-list-item {
+    margin: 25px 0;
+}
+.elevated-technology .button-label {
+    border: 1px solid rgb(162, 157, 156);
+    color: rgb(162, 157, 156);
+    display: block;
+    font-family: SackersGothicStd-Medium;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    margin: 28px 0 0 30px;
+    padding: 12px 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color 0.2s ease-in 0s, border-color 0.2s ease-in 0s;
+    width: 245px;
+}
+.container.nat-align {
+    padding-bottom: 20px;
+}
+hr.supportive-spacer {
+    border: 0;
+    height: 2px;
+    background: #cccccc;
+}
+.elevated-technology .title {
+    width: 600px;
+}
+.elevated-technology .col.img-col {
+    padding-top: 115px;
+}
+section.vionic-inside {
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+.vionic-inside .container {
+    background: #8bdaf7 none repeat scroll 0 0;
+    padding: 40px !important;
+}
+.vionic-inside .col-md-6 {
+    text-align: center;
+}
+.vionic-inside .title {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1.3px;
+}
+.vionic-inside .supporting-copy {
+    font-family: 'gotham_lightregular';
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+}
+.vionic-inside .vionic-inside-content {
+    padding-top: 30px;
+}
+.trusted-and-approved {
+    background: rgb(249, 248, 248) none repeat scroll 0 0;
+    margin: 40px 0;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.trusted-and-approved .title {
+    color: #000;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium;
+    text-transform: uppercase;
+    padding: 60px 0 40px 0;
+    letter-spacing: 1.3px;
+}
+.trusted-and-approved .leftcol img,
+.trusted-and-approved .vionic-lab-logo img {
+    height: 91px;
+    margin-bottom: 12px;
+}
+.trusted-and-approved .supporting-copy.podiatric {
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+    color: #000;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.trusted-and-approved .supporting-copy.vionic-lab {
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+    color: #000;
+    width: 64%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.trusted-and-approved .leftcol {
+    border-right: 2px solid #a39e9d !important;
+}
+.trusted-and-approved .cta.highlight {
+    color: rgb(255, 70, 18);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    padding-right: 0px;
+    letter-spacing: 1.3px;
+}
+.wide-top {
+    height: auto;
+    margin: 60px auto 15px;
+    text-align: center;
+}
+.wide-top h1 {
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+    margin-left: auto !important;
+    margin-right: auto;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: #ea6953 !important;
+    font-size: 35px !important;
+    font-weight: 400 !important;
+    letter-spacing: 2px !important;
+    margin: 0;
+}
+.wide-top h2 {
+    margin: 0 auto !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: #ea6953 !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 2px !important;
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+}
+.wide-top p {
+    font-family: 'Gotham A', 'Gotham B' !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 65% !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    line-height: 1.428571429 !important;
+    color: #372E2C !important;
+}
+.wide-top .shop-btn {
+    background-color: #ea6953;
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+}
+/* ABOUT VIONIC HISTORY */
+
+.about-vionic-page {
+    margin-top: 20px;
+}
+.about-vionic-page .wide-top h1 {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 120%;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+}
+.about-vionic-page .wide-top h2 {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 35px !important;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7f7773 !important;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.about-vionic-page .abt-history {
+    margin-top: 40px;
+}
+.about-vionic-page .abt-history .abt-background-image {
+    background-image: url(//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/fyn_cobalt_ls_white_bkgd_01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 850px;
+    height: 790px;
+}
+.about-vionic-page .abt-history #grey {
+    text-transform: uppercase;
+    color: #a79c94;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0;
+}
+.about-vionic-page .abt-history h2 {
+    margin: 0;
+}
+.about-vionic-page .abt-history h1 {
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 120%;
+    margin-bottom: 10px !important;
+    margin-top: 0px;
+    margin: 0;
+}
+.about-vionic-page .abt-history .leftcol p {
+    font-family: "Gotham A", "Gotham B";
+    line-height: 160%;
+    width: 100%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    margin-bottom: 1em;
+}
+.about-vionic-page .abt-history .text-link {
+    display: table;
+    text-align: left;
+    color: #ea6953;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.428571429;
+    font-family: 'Gotham A', 'Gotham B';
+}
+.about-vionic-page .abt-history #top-pad.text-link {
+    margin-top: 12px;
+}
+.about-vionic-page .abt-history #no-pad.text-link {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.about-vionic-page .abt-history .shop-btn {
+    background-color: #ea6953;
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 1.428571429;
+    font-family: 'Gotham A', 'Gotham B';
+}
+.about-vionic-page .science-infused-style .top-border-img {
+    margin-bottom: -3px;
+}
+.about-vionic-page .science-infused-style .left-col {
+    text-align: center;
+}
+.about-vionic-page .science-infused-style .left-col img {
+    width: 450px;
+    margin: 0 auto;
+}
+.about-vionic-page .science-infused-style .right-col img {
+    width: 350px;
+    margin: 0;
+    padding: 40px 0 30px 0;
+}
+.about-vionic-page .science-infused-style .right-col h1 {
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 120%;
+    margin-bottom: 10px !important;
+    margin: 0;
+    -webkit-margin-before: 0em !important;
+}
+.about-vionic-page .science-infused-style .right-col p {
+    line-height: 160%;
+    width: 100%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    font-family: 'Gotham A', 'Gotham B';
+    margin: 0;
+    margin-bottom: 1em !important;
+}
+.about-vionic-page .science-infused-style .right-col .shop-btn-wrapper {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.about-vionic-page .science-infused-style .right-col #btn300 {
+    width: 300px;
+}
+.about-vionic-page .science-infused-style .right-col .shop-btn-wrapper a,
+.about-vionic-page .science-infused-style .right-col .shop-btn-wrapper a:hover {
+    color: rgb(255, 255, 255);
+}
+.about-vionic-page .science-infused-style .right-col .shop-btn {
+    background-color: #ea6953;
+    display: block;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+}
+.about-vionic-page .science-infused-style .right-col .text-link {
+    display: table;
+    text-align: left;
+    color: #ea6953;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 5px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.428571429;
+}
+.about-vionic-page .were-in-the-news {
+    margin-bottom: 24px;
+}
+.about-vionic-page .were-in-the-news .left-col h2 {
+    text-transform: uppercase;
+    color: #ea6953 !important;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    line-height: 1.428571429;
+    margin-bottom: 10px !important;
+}
+.about-vionic-page .were-in-the-news .left-col p {
+    line-height: 160%;
+    width: 100%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    font-family: 'Gotham A', 'Gotham B';
+    margin: 0;
+    margin-bottom: 1em !important;
+    margin-top: 12px !important;
+}
+.about-vionic-page .were-in-the-news .left-col .text-link {
+    display: table;
+    text-align: left;
+    color: #ea6953;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 5px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.428571429;
+}
+.about-vionic-page .were-in-the-news .left-col .social-wrapper {
+    margin-top: 12px;
+}
+.about-vionic-page .were-in-the-news .left-col .social-wrapper a {
+    margin: 0 20px 0 20px;
+}
+.about-vionic-page .were-in-the-news .left-col .social-wrapper a:hover {
+    color: #000;
+}
+.about-vionic-page .the-source-innovation {
+    margin-bottom: 40px;
+}
+.about-vionic-page .the-source-innovation .left-col {
+    text-align: center;
+}
+.about-vionic-page .the-source-innovation .left-col img.desktop-version {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.about-vionic-page .the-source-innovation .left-col img.mobile-version {
+    display: none;
+}
+.about-vionic-page .the-source-innovation .right-col h2 {
+    text-transform: uppercase;
+    color: #ea6953 !important;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    line-height: 1.428571429;
+    margin: 0;
+    margin-bottom: 0 !important;
+    margin-top: 12px !important;
+}
+.about-vionic-page .the-source-innovation .right-col p {
+    line-height: 160%;
+    width: 100%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    font-family: 'Gotham A', 'Gotham B';
+    margin: 0;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.about-vionic-page .the-source-innovation .right-col .text-link {
+    display: table;
+    text-align: left;
+    color: #ea6953;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 5px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.428571429;
+}
+.about-vionic-page .trusted-podiatric-specialists {
+    margin-bottom: 40px;
+}
+.about-vionic-page .trusted-podiatric-specialists .left-col {
+    text-align: center;
+}
+.about-vionic-page .trusted-podiatric-specialists .left-col img {
+    width: 480px;
+    margin: 0 auto;
+}
+.about-vionic-page .trusted-podiatric-specialists .right-col h2 {
+    text-transform: uppercase;
+    color: #ea6953 !important;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    line-height: 1.428571429;
+    margin: 0;
+    margin-bottom: 1em !important;
+}
+.about-vionic-page .trusted-podiatric-specialists .right-col p {
+    line-height: 160%;
+    width: 100%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    font-family: 'Gotham A', 'Gotham B';
+    margin: 0;
+    margin-bottom: 1em !important;
+}
+.about-vionic-page .trusted-podiatric-specialists .right-col .text-link {
+    display: table;
+    text-align: left;
+    color: #ea6953;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 5px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.428571429;
+}
+.about-vionic-page .trusted-podiatric-specialists .right-col .shop-btn-wrapper {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.about-vionic-page .trusted-podiatric-specialists .right-col #btn300 {
+    width: 300px;
+}
+.about-vionic-page .trusted-podiatric-specialists .right-col .shop-btn-wrapper a,
+.about-vionic-page .trusted-podiatric-specialists .right-col .shop-btn-wrapper a:hover {
+    color: rgb(255, 255, 255);
+}
+.about-vionic-page .trusted-podiatric-specialists .right-col .shop-btn {
+    background-color: #ea6953;
+    display: block;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+}
+.about-vionic-page .trusted-podiatric-specialists .right-col #icon-image {
+    float: left;
+    height: 115px;
+    width: auto;
+    margin: 30px 5px;
+}
+.about-vionic-page .trusted-podiatric-specialists .right-col img {
+    height: 115px;
+    width: auto;
+    margin: 30px 5px;
+}
+.about-vionic-page .currently-available {
+    margin-bottom: 40px;
+}
+.about-vionic-page .currently-available .left-col .shop-btn-wrapper {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.about-vionic-page .currently-available .left-col #btn300 {
+    width: 300px;
+}
+.about-vionic-page .currently-available .left-col .shop-btn-wrapper a,
+.about-vionic-page .currently-available .left-col .shop-btn-wrapper a:hover {
+    color: rgb(255, 255, 255);
+}
+.about-vionic-page .currently-available .left-col .shop-btn {
+    background-color: #ea6953;
+    display: block;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    width: 220px;
+    text-align: center;
+    font-size: 12px;
+}
+.about-vionic-page .currently-available .right-col {
+    text-align: center;
+}
+.about-vionic-page .currently-available .right-col img {
+    width: 400px;
+    margin: 0 auto;
+}
+#footnote {
+    color: rgb(127, 119, 115);
+    display: block;
+    font-style: italic;
+    margin-top: 0;
+    width: 90%;
+}
+.social-wrapper img {
+    height: 45px;
+    padding: 0 8px;
+}
+.find-store .fs-text {
+    padding-top: 40px;
+    text-align: center;
+}
+.fs-text > h2 {
+    font-size: 24px;
+}
+.fs-text > p {
+    font-family: "Gotham A", "Gotham B";
+    font-size: 16px;
+    line-height: 22px;
+}
+.fs-text .shop-btn {
+    color: rgb(255, 70, 18);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+}
+.trust-left img,
+.vionic-lab-logo img {
+    height: 100px;
+}
+.trust-left,
+.vionic-lab-logo.abt {
+    padding: 0 30px;
+}
+.trust-left {
+    border-right: 1px solid #ccc;
+}
+.trust-left .cta.highlight {
+    display: block;
+}
+
+
+/********Page Womens New Arrivals starts here**********/
+.new-arrivals .new-hero .content .title {
+ color: #fff; 
+}
+
+
+/********Page slipper starts here**********/
+
+.page-slipper {
+    font-family: "Gotham A", "Gotham B";
+}
+.page-slipper .full-width-background.introduction {
+    height: 431px;
+    background-size: cover;
+    background-image: url("//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/slippers_banner_juniper_greyplaid_ls_02.jpg");
+}
+.page-slipper .full-width-background.introduction .title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 44px;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+.page-slipper section {
+    padding: 24px;
+}
+.women-shipper-top .text-col {
+    margin-top: 48px;
+}
+.women-shipper-top .text-col .supporting-copy {
+    margin-left: 48px;
+}
+.women-shipper-top .text-col a {
+    color: rgb(255, 70, 18);
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 48px;
+}
+.page-slipper .full-width-background.introduction .supporting-copy {
+    color: rgb(255, 255, 255);
+    font-family: MrsEavesOT-Italic;
+    font-size: 30px;
+}
+.page-slipper .testimonial .quote {
+    color: rgb(113, 98, 88);
+    font-family: MrsEavesOT-Roman;
+    font-size: 22px;
+    letter-spacing: 2.5px;
+    line-height: 1.5;
+    margin-left: 0;
+    position: relative;
+    text-align: center;
+}
+.page-slipper .testimonial .quote-author {
+    color: rgb(255, 70, 18);
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    margin-top: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.page-slipper .testimonial .button-label {
+    border: 1px solid rgb(162, 157, 156);
+    color: rgb(162, 157, 156);
+    display: block;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    padding: 12px 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color 0.2s ease-in 0s, border-color 0.2s ease-in 0s;
+}
+.page-slipper .post-intro .title {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 0 0 10px 0;
+    color: #000000;
+    font-size: 30px;
+    line-height: 130%;
+}
+.page-slipper .post-intro .title i {
+    font-style: italic;
+}
+.page-slipper .testimonial .category-links li .button-label {
+    display: block;
+    margin: 0;
+    transition: color 0.2s ease-in 0s, border-color 0.2s ease-in 0s;
+}
+.page-slipper .testimonial .category-links li {
+    background-color: rgb(249, 248, 248);
+    float: left;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    font-size: 12.4px;
+    line-height: 16.4px;
+    list-style: outside none none;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    padding: 15px;
+    width: 48%;
+}
+.page-slipper .testimonial .quote::before {
+    content: "“";
+    font-family: sans-serif;
+    left: -50px;
+    top: -50px;
+}
+.page-slipper .testimonial .quote::before,
+.page-slipper .testimonial .quote::after {
+    color: rgb(231, 231, 231);
+    font-size: 140px;
+    font-weight: 400;
+    line-height: 1;
+    position: absolute;
+}
+.page-slipper .testimonial .quote::after {
+    content: "”";
+    font-family: sans-serif;
+    right: -50px;
+    top: 100px;
+}
+.page-slipper .full-width-background.introduction .content .floating-product-link {
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 45%;
+    height: 430px;
+    border: 0px solid yellow;
+}
+.page-slipper .fancy-list-item-ordinal {
+    border: 1px solid #a29d9c;
+    border-radius: 20px;
+    color: #a29d9c;
+    float: left;
+    font-family: MrsEavesOT-Roman, "times new roman", serif;
+    font-size: 17px;
+    height: 22px;
+    line-height: 18px;
+    text-align: center;
+    width: 22px;
+}
+.page-slipper .fancy-list .fancy-list-item-content {
+    padding-left: 34px;
+}
+.page-slipper .video-promo .supporting-copy {
+    font-family: SackersGothicStd-Medium;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.page-slipper .video-promo .text-col {
+    padding: 0 5%;
+    text-align: center;
+}
+.page-slipper .video-promo .text-col .supporting-copy,
+.page-slipper .video-promo .text-col .title,
+.page-slipper .video-promo .text-col .post-title {
+    color: #000;
+    text-align: center;
+}
+.page-slipper .support-in-style .text-col {
+    text-align: left;
+}
+.page-slipper .support-in-style .text-col .supporting-copy {
+    font-size: 17px;
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: left;
+    font-family: MrsEavesOT-Roman;
+}
+.page-slipper .support-in-style .bullet-copy {
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.page-slipper .support-in-style .bullet-copy .emphasize {
+    font-family: "Gotham A", "Gotham B";
+    font-style: normal;
+}
+.plantar .fasciitis {
+    text-align: center;
+}
+.page-slipper .fancy-list-item-ordinal {
+    border: 1px solid #000;
+    color: #000;
+}
+.page-slipper .women-shipper-top .text-col img {
+    margin: 10px 30px 0;
+    width: 30%;
+}
+.page-slipper .support-in-style .image-col {
+    text-align: center;
+}
+.page-slipper .support-in-style .image-col img {
+    width: 60%;
+}
+/* PAGE PLANTAR FASCIITIS */
+
+.standard-body .full-width .page-plantar .container {
+    padding-left: 0;
+}
+.page-plantar .fasciitis {
+    margin-top: -50px;
+}
+.page-plantar .fasciitis .left-portion img {
+    width: 430px;
+}
+.page-plantar .fasciitis .right-portion {
+    padding-top: 20px;
+}
+.page-plantar .fasciitis h1 {
+    font-family: "Gotham A", "Gotham B";
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px !important;
+    text-align: left;
+    margin: 0;
+    font-style: normal;
+}
+.page-plantar .fasciitis p {
+    font-family: "Gotham A", "Gotham B";
+    line-height: 160%;
+    text-align: left;
+    margin-bottom: 1em;
+}
+.page-plantar .fasciitis .shop-button {
+    font-family: "Gotham A", "Gotham B";
+    display: inline;
+    width: 85%;
+    background-color: #ea6953;
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 5px 20px 5px 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.page-plantar .sep {
+    padding: 15px 0;
+}
+.page-plantar .relief {
+    padding: 15px 0;
+}
+.page-plantar .relief .rleft .video {
+    margin-bottom: 10px;
+}
+.page-plantar .relief .rleft .video img {
+    width: 300px;
+}
+.page-plantar .relief .rleft h2 {
+    font-family: "Gotham A", "Gotham B";
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 16px;
+    font-weight: 200 !important;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin: 0;
+}
+.page-plantar .relief .rleft p {
+    font-family: "Gotham A", "Gotham B";
+    line-height: 160%;
+    margin: 0;
+}
+.page-plantar .relief .rlright h3 {
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px !important;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    margin: 0;
+    padding: 0;
+}
+.page-plantar .relief .rlright h4 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(112, 99, 89);
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+}
+.page-plantar .relief .rlright p.tips-title {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ea6953;
+    line-height: 160%;
+}
+.page-plantar .relief .rlright p.tips-description {
+    font-family: "Gotham A", "Gotham B";
+    line-height: 160%;
+    margin: 0;
+}
+/* BOX */
+
+.page-plantar .relief .alignment-box-wrapper {
+    max-width: 440px;
+    width: 100%;
+    height: 180px;
+    border: 1px solid rgb(198, 189, 186);
+    margin: 40px 0px 30px 0px;
+}
+.page-plantar .relief #alignment-image {
+    float: left;
+    width: 90px;
+    margin: 30px 0px 0px 20px;
+    padding-right: 10px;
+}
+.page-plantar .relief .alignment-box-text-wrapper-top {
+    width: auto;
+    margin: 40px 0 0 20px;
+}
+.page-plantar .relief .alignment-box-title-1 {
+    text-align: left;
+    width: auto;
+    text-transform: none;
+    color: #71b640;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    line-height: 30px;
+}
+.page-plantar .relief .alignment-box-title-2 {
+    text-align: left;
+    width: auto;
+    text-transform: uppercase;
+    color: #3a3531;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    transform: scale(1, .8);
+    -webkit-transform: scale(1, .8);
+    /* Safari and Chrome */
+    
+    -moz-transform: scale(1, .8);
+    /* Firefox */
+    
+    -ms-transform: scale(1, .8);
+    /* IE 9+ */
+    
+    -o-transform: scale(1, .8);
+    /* Opera */
+}
+.page-plantar .relief .alignment-box-text-wrapper-bot {
+    display: block;
+    width: auto;
+    margin: 0;
+}
+.page-plantar .relief .alignment-box-text {
+    text-align: left;
+    font-family: 'Gotham A', 'Gotham B';
+    font-size: 13px;
+    line-height: 150%;
+    margin: 10px 0 0 20px;
+    width: 80%;
+}
+.page-plantar .tips-col {
+    margin-top: 20px;
+}
+.page-plantar .tips-wrapper {
+    margin-bottom: 5px;
+}
+.page-plantar .tips-col .tips-wrapper img {
+    float: left;
+    margin-right: 15px;
+    width: 44px;
+}
+.page-plantar .row.wide-col {
+    clear: both;
+    float: left;
+    padding: 40px 0 60px 0;
+    text-align: center;
+    width: 100%;
+}
+.page-plantar .row.wide-col #footnote {
+    color: rgb(127, 119, 115);
+    display: block;
+    font-style: italic;
+    margin-top: 0;
+    width: 100%;
+}
+.findhead {
+    text-align: center;
+}
+.findhead h2 {
+    color: rgb(255, 70, 18);
+    font-family: SackersGothicStd-Medium;
+    font-size: 26px;
+    line-height: 26px;
+}
+.findhead span {
+    color: rgb(0, 0, 0);
+    font-family: MrsEavesOT-Italic;
+    font-size: 26px;
+    line-height: 22px;
+}
+.findtext .findleft p {
+    font-size: 18px;
+    font-family: "Gotham A", "Gotham B";
+    line-height: 24px;
+}
+.subscribeform .frm-field label {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    max-width: 100%;
+    width: 140px;
+    font-family: "Poppins", sans-serif;
+}
+.subscribeform .frm-field .sbemail {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0;
+    height: 30px;
+    max-width: 100%;
+    padding: 5px;
+    width: 300px;
+}
+.subscribeform .frm-field input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0;
+    height: 30px;
+    padding: 5px;
+    width: 200px;
+}
+/***********page ortheel*********/
+
+.page-ortheel-techology .breadcrumbs {
+    padding: 2px 0px 2px !important;
+    text-align: left !important;
+    margin-top: 50px !important;
+}
+.page-ortheel-technology .breadcrumbs ul {
+    /* -webkit-margin-before: 0em !important; */
+    /* -webkit-padding-start: 0px !important; */
+    
+    margin-bottom: 20px !important;
+}
+.page-ortheel-technology .breadcrumbs li {
+    display: inline;
+    font-weight: 300;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.page-ortheel-technology {
+    padding-top: 10px;
+}
+.page-ortheel-technology #na_header {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.page-ortheel-technology #na_header h1 {
+    margin: 0;
+    font-family: SackersGothicStd-Heavy, sans-serif !important;
+    text-transform: uppercase !important;
+    color: #ff4612 !important;
+    font-size: 24px !important;
+    line-height: 50px !important;
+    letter-spacing: 2.5px !important;
+}
+.page-ortheel-technology #na_header h3 {
+    margin: 0;
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    color: #000;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 2.5px;
+    padding-left: 20px;
+}
+.page-ortheel-technology #na_header p {
+    color: #000;
+    padding: 0px 120px;
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 1.428571429;
+}
+.page-ortheel-technology #na h1 {
+    color: #ff4612;
+    font-family: SackersGothicStd-Medium;
+    font-size: 24px;
+    letter-spacing: 2.5px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.page-ortheel-technology #na h2 {
+    font-family: SackersGothicStd-Heavy, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    padding-left: 20px;
+    margin: 0;
+}
+.page-ortheel-technology #na p {
+    padding: 5px 20px;
+    margin-bottom: 0em;
+    margin: 0;
+}
+.page-ortheel-technology .na_left img {
+    width: 75%;
+}
+.page-ortheel-technology #na_body .na_right img {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+.page-ortheel-technology #na .btn,
+.outfleft .shop-links a,
+.outfright .shop-links a {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    color: #a29d9c !important;
+    display: block;
+    font-family: SackersGothicStd-Medium, sans-serif !important;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    line-height: 1;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    min-width: 330px;
+    padding: 10px 2px;
+    text-align: center;
+    transition: color 200ms ease-out 0s, border-color 200ms ease-out 0s;
+}
+.page-ortheel-technology #na .article {
+    margin-bottom: 30px;
+}
+.page-ortheel-technology .quote {
+    box-sizing: border-box;
+    text-align: center;
+    left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;
+    color: #706359;
+    font-family: MrsEavesOT-Roman, sans-serif !important;
+    font-size: 22px;
+    margin: 0 auto;
+}
+.page-ortheel-technology .quote p {
+    font-family: MrsEavesOT-Roman, sans-serif !important;
+    padding: 5px 20px;
+    margin-bottom: 0em;
+}
+.page-ortheel-technology .quote .attrib {
+    color: #ff4612;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+}
+.page-ortheel-technology .quote:before {
+    content: "“";
+    font-family: sans-serif;
+    position: absolute;
+}
+.page-ortheel-technology .quote:after {
+    content: "”";
+    font-family: sans-serif;
+    position: absolute;
+}
+.page-ortheel-technology .quote:before {
+    color: #e7e7e7;
+    font-size: 140px;
+    font-weight: 400;
+    line-height: 1;
+    left: 70px;
+}
+.page-ortheel-technology .quote:after {
+    color: #e7e7e7;
+    font-size: 140px;
+    font-weight: 400;
+    line-height: 1;
+    right: 70px;
+    bottom: 70px;
+}
+.page-ortheel-technology #na a {
+    color: #ff4612;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.page-ortheel-technology #na_footer .na_left img {
+    display: table;
+    margin: 0 auto 20px;
+    text-align: center;
+    width: 25%;
+}
+/* TRUSTED AND APPROVED */
+
+.page-ortheel-technology-footer .trusted-and-approved {
+    background: rgb(249, 248, 248) none repeat scroll 0 0;
+    margin: 40px 0;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.page-ortheel-technology-footer .trusted-and-approved .title {
+    font-family: SackersGothicStd-Heavy, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    padding: 0 0 40px 0 !important;
+    margin: 0;
+}
+.page-ortheel-technology-footer .trusted-and-approved h2 {
+    font-family: SackersGothicStd-Heavy, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    padding-left: 20px;
+}
+.page-ortheel-technology-footer .trusted-and-approved .leftcol img {
+    height: 95px;
+    margin-bottom: 12px;
+}
+.page-ortheel-technology-footer .trusted-and-approved .vionic-lab-logo img {
+    height: 61px;
+    margin-bottom: 12px;
+}
+.page-ortheel-technology-footer .trusted-and-approved p.supporting-copy.podiatric {
+    text-align: center;
+    color: #000;
+    font-family: "Gotham A", "Gotham B";
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+    width: 80%;
+    font-weight: 300;
+}
+.page-ortheel-technology-footer .trusted-and-approved p.supporting-copy.vionic-lab {
+    text-align: center;
+    color: #000;
+    font-family: "Gotham A", "Gotham B";
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+    width: 80%;
+    font-weight: 300;
+}
+.page-ortheel-technology-footer .trusted-and-approved .leftcol {
+    border-right: 3px solid #bab6b5 !important;
+}
+.page-ortheel-technology-footer .trusted-and-approved .cta.highlight {
+    color: rgb(255, 70, 18);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    padding-right: 0px;
+    letter-spacing: 1.3px;
+}
+.subscribeform input[type="submit"] {
+    background: rgb(255, 70, 18) none repeat scroll 0 0;
+    border: medium none;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2.8px;
+    margin: 10px 0;
+    padding: 5px 30px;
+    text-transform: uppercase;
+}
+.findleft ul li {
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    list-style: outside none none;
+    padding: 0 15px;
+}
+.findleft ul {
+    margin: 15px 0;
+    padding: 0;
+}
+.findleft li:nth-child(1) {
+    border-right: 1px solid rgb(0, 0, 0);
+    height: 18px;
+    padding-left: 0;
+    padding-top: 0;
+}
+.findleft h2 {
+    font-size: 22px;
+    line-height: 26px;
+}
+.findleft .fvideo {
+    margin: 30px 0 0;
+}
+.findleft .fvideo img {
+    max-width: 100%;
+    width: 90%;
+}
+.findleft .shop-btn {
+    color: rgb(255, 70, 18);
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 22px;
+    line-height: 24px;
+    margin: 8px 0;
+}
+.findright .imgcol {
+    text-align: center;
+}
+.findright .imgcol img {
+    max-width: 100%;
+    width: 80%;
+}
+.findright h2,
+.walkto h2 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    padding: 30px 0 0;
+}
+.findtext .findright p {
+    font-family: "Gotham A", "Gotham B";
+    font-size: 18px;
+    line-height: 24px;
+}
+.sociallinks li {
+    display: inline-block;
+    list-style: outside none none;
+    padding: 0 10px;
+}
+.sociallinks li img {
+    height: 40px;
+    width: 40px;
+}
+.sociallinks {
+    margin: 0;
+    padding: 0;
+}
+.splife h2 {
+    font-family: SackersGothicStd-Medium;
+    font-size: 22px;
+}
+.lmore,
+.findright .shop-btn {
+    color: rgb(255, 70, 18);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+}
+.rvideo {
+    margin: 10px 0;
+}
+.outfitted {
+    padding: 30px 0;
+    text-align: center;
+}
+.outfitted > h2 {
+    font-size: 22px;
+    letter-spacing: 5px;
+    line-height: 26px;
+}
+.outfitted > p {
+    color: rgb(0, 0, 0);
+    font-family: "Gotham A", "Gotham B";
+    font-size: 18px;
+    line-height: 22px;
+}
+.row.outfitted > span {
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+    text-align: center;
+}
+.outfleft,
+.outfright {
+    margin: 30px 0;
+}
+.outfleft img,
+.outfright img {
+    max-width: 100%;
+    width: 80%;
+}
+.outfleft a,
+.outfright a {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+}
+.outfleft .shop-links a,
+.outfright .shop-links a {
+    font-size: 16px;
+    letter-spacing: 0;
+    margin: 10px auto;
+    max-width: 100%;
+    width: 80%;
+    font-style: normal;
+}
+/**********Page Elevated Technology**************/
+
+.elevated-support {
+    margin-bottom: 100px;
+}
+.elevated-support header {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.standard-body .full-width .elevated-support .container {
+    padding-left: 0;
+}
+.elevated-support header h1 {
+    margin: 0;
+    padding: 0;
+}
+.elevated-support header h3 {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: SackersGothicStd-Medium;
+    font-size: 34px;
+    letter-spacing: 2.5px;
+    line-height: 40px;
+}
+.elevated-support header {
+    border-bottom: 2px solid rgb(204, 204, 204);
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+}
+.elevated-support .pre-title {
+    font-size: 34px;
+    line-height: 38px;
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    color: #000;
+    letter-spacing: 1.2px;
+    margin: 0;
+}
+.elevated-support header .title {
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ff4612;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1.2px;
+    padding: 12px 0;
+    margin: 0;
+}
+.elevated-support header .supporting-copy {
+    color: #000;
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.2px;
+}
+.elevated-support .es-support {
+    margin: 100px 0 40px 0;
+}
+.elevated-support .fancy-list {
+    padding: 24px;
+}
+.elevated-support .fancy-list .fancy-list-item-ordinal {
+    border: 1px solid rgb(162, 157, 156);
+    border-radius: 20px;
+    color: rgb(162, 157, 156);
+    float: left;
+    font-family: MrsEavesOT-Roman, "times new roman", serif;
+    font-size: 17px;
+    height: 22px;
+    line-height: 20px;
+    text-align: center;
+    width: 22px;
+}
+.elevated-support .fancy-list .fancy-list-item-content .bullet-copy {
+    font-family: "Gotham A", "Gotham B", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    margin-bottom: 20px;
+    padding-left: 35px;
+}
+.elevated-support .fancy-list .fancy-list-item-content .bullet-copy .emphasize {
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+}
+.elevated-support .highlight {
+    color: #ff4612;
+    display: block;
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.3px;
+}
+.elevated-support .button-label {
+    color: rgb(255, 70, 18);
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 22px;
+    line-height: 26px;
+}
+.elevated-support .img-col.comfort-contours img {
+    width: 75%;
+}
+.elevated-support .es-supportive-style .text-col {
+    margin-top: 50px;
+}
+.elevated-support .es-supportive-style .title {
+    font-size: 20px;
+    color: #000;
+    line-height: 22px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 12px 0;
+}
+.elevated-support .es-supportive-style p.supporting-copy {
+    color: #000;
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.elevated-support .es-supportive-style .button-label {
+    font-family: SackersGothicStd-Medium, sans-serif !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    width: 245px;
+    height: 36px;
+    display: block;
+    text-align: center;
+    border: 1px solid #a29d9c !important;
+    color: #a29d9c !important;
+    font-style: normal !important;
+    padding: 12px 0 !important;
+    text-transform: uppercase !important;
+    transition: .2s color ease-in, .2s border-color ease-in;
+    letter-spacing: 1.3px;
+}
+.elevated-support .es-supportive-style .text-col img {
+    margin-top: 24px;
+}
+.elevated-support .videos .title {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    padding: 12px 0;
+    letter-spacing: 1.3px;
+    margin: 0;
+}
+.elevated-support .videos .cta {
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ff4612;
+}
+.elevated-support .videos p.supporting-copy {
+    color: #000;
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.elevated-support .videos .contours .non-video img {
+    width: 366px !important;
+}
+.elevated-support .videos .contours img {
+    clear: both;
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+}
+.elevated-support .videos .innovation img {
+    clear: both;
+    display: block;
+    margin: 20px 0;
+    width: 80%;
+}
+.elevated-support .videos .contours {
+    padding-right: 24px;
+}
+.elevated-support .videos .innovation {
+    padding-left: 24px;
+}
+/* MOVE WALK LIVE PAGE */
+
+.walk-live-banner {
+    background: rgba(0, 0, 0, 0) url("//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/wml_bg.jpg") no-repeat scroll 0 0 / cover;
+}
+.move-walk-live .banner-text {
+    padding: 84px 0;
+    text-align: center;
+    width: 40%;
+}
+.move-walk-live .walk-live-banner .title {
+    color: #ff4612;
+    font-size: 20px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+}
+.move-walk-live .walk-live-banner .supporting-copy {
+    color: #000;
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+}
+.move-walk-live p.section-copy {
+    margin: 24px 0 36px 0;
+    text-align: center;
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+.move-walk-live .colorblock .content img.section-title {
+    margin: 0;
+}
+.move-walk-live .colorblock .content {
+    text-align: center;
+}
+.move-walk-live .colorblock .content img {
+    margin: 0;
+    width: 80%;
+}
+.move-walk-live .content.section-support h2 {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1.3px;
+}
+.move-walk-live .content.section-support p.supporting-copy {
+    color: #000;
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 24px 0px 24px;
+    letter-spacing: 1.3px;
+}
+.move-walk-live .section-intro.move {
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    padding-bottom: 30px;
+}
+.move-walk-live .colorblock {
+    padding: 24px 0 0;
+}
+.move-walk-live .colorblock .cta.highlight {
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ff4612;
+    letter-spacing: 1.3px;
+}
+.move-walk-live .walkinbenifits .supporting-links {
+    margin-top: 20px;
+}
+.move-walk-live .walkinbenifits .link-section {
+    clear: both;
+    display: block;
+    float: left;
+    margin: 24px 0;
+    width: 100%;
+}
+.move-walk-live .walkinbenifits .image-container {
+    float: left;
+    width: 40%;
+}
+.move-walk-live .walkinbenifits .link-description {
+    float: left;
+    padding-left: 10px;
+    width: 60%;
+}
+.move-walk-live .walkinbenifits .link-description h2 {
+    padding-top: 0;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+    margin: 0;
+    letter-spacing: 1.3px;
+}
+.move-walk-live .walkinbenifits .link-description p.supporting-copy {
+    font-family: "Gotham A", "Gotham B", sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    margin: 0;
+    letter-spacing: 1.3px;
+}
+.move-walk-live .walkinbenifits .link-description .cta {
+    margin-top: 12px !important;
+    display: block;
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 1.3px;
+}
+.move-walk-live .walkinbenifits .benifits-col {
+    padding: 0 20px 0 20px;
+}
+.move-walk-live .walkinbenifits .benifits-col2 {
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    padding: 0 20px 0 20px;
+}
+.move-walk-live .walkinbenifits {
+    background: #f9f8f8 none repeat scroll 0 0;
+}
+.move-walk-live .walkinbenifits:after {
+    content: '';
+    height: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+    left: 0;
+    right: 0;
+    background-color: #f9f8f8;
+    z-index: 0;
+}
+.move-walk-live .downloads {
+    text-align: center;
+}
+.move-walk-live .downloads .title {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1.3px;
+}
+.move-walk-live .free-download .button-label {
+    border: 1px solid #a29d9c;
+    color: #a29d9c;
+    display: block;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    padding: 12px 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color 0.2s ease-in 0s, border-color 0.2s ease-in 0s;
+    width: 100%;
+    height: 36px;
+}
+.move-walk-live .trusted-and-approved {
+    background: rgb(249, 248, 248) none repeat scroll 0 0;
+    margin: 40px 0;
+    padding: 50px 0 70px 0;
+    text-align: center;
+}
+.move-walk-live .trusted-and-approved .title {
+    color: #000;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium;
+    text-transform: uppercase;
+    padding: 0px 0 40px 0;
+    letter-spacing: 1.3px;
+    margin: 0;
+}
+.move-walk-live .trusted-and-approved .leftcol img {
+    width: 80px;
+    height: 100px;
+    margin-bottom: 12px;
+}
+.move-walk-live .trusted-and-approved .vionic-lab-logo img {
+    width: 200px;
+    height: 52px;
+    margin-bottom: 12px;
+}
+.move-walk-live .trusted-and-approved .supporting-copy.podiatric {
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #000;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.move-walk-live .trusted-and-approved .supporting-copy.vionic-lab {
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #000;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.move-walk-live .trusted-and-approved .leftcol {
+    border-right: 2px solid #a39e9d !important;
+}
+.move-walk-live .trusted-and-approved .cta.highlight {
+    color: rgb(255, 70, 18);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    padding-right: 0px;
+    letter-spacing: 1.3px;
+}
+/* RETURN & EXCHANGE */
+
+.rexchange #re_header {
+    margin-top: 90px;
+    text-align: center;
+}
+.rexchange #re_header h2 {
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    font-size: 30px;
+    line-height: 1.3;
+    letter-spacing: 0.09em;
+    color: #eb6852;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.rexchange #re_header p {
+    font-family: "Gotham A", "Gotham B";
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    color: #706359;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 1em;
+    width: 75%;
+    margin: 0 auto;
+}
+.rexchange .holiday-policy {
+    display: none;
+}
+.rexchange .left.holiday-left h2 {
+    color: rgb(235, 104, 82);
+}
+.rexchange .left.holiday-left p {
+    font-family: "Gotham A", "Gotham B";
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    color: #706359;
+    font-weight: 300;
+}
+.rexchange .left.holiday-left h3 {
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    color: #eb6852;
+    font-weight: 500;
+}
+.rexchange #thirty_day {
+    clear: both;
+    display: block;
+    margin: 20px 0;
+    padding: 25px 22px 10px;
+}
+.rexchange #thirty_day .container {
+    background: rgb(243, 243, 240) none repeat scroll 0 0;
+    padding: 30px 0;
+}
+.rexchange .thirty_content img {
+    width: 126px;
+    border: 0;
+}
+.rexchange .thirty_content .col-md-2 {
+    text-align: center;
+}
+.rexchange .thirty_content p {
+    font-family: "Gotham A", "Gotham B";
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    color: #706359;
+    font-weight: 300;
+}
+.rexchange .thirty_content .col-md-10 > h3 {
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    color: #eb6852;
+    font-weight: 500;
+}
+.rexchange #steps {
+    margin-top: 80px;
+}
+.rexchange #steps .exchange-step-section h2 {
+    font-size: 24px;
+    padding-left: 130px !important;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 0.09em;
+    color: #eb6852;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    margin: 0;
+}
+.rexchange #steps .exchange-step-section h3 {
+    font-size: 24px;
+    padding-left: 130px !important;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    color: #eb6852;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    margin: 0;
+}
+.rexchange #steps .step_section > img {
+    float: left;
+    margin: 10px 20px 10px 0;
+    max-width: 100px;
+    width: 100px;
+}
+.rexchange .step_section .step_subhead {
+    font-family: 'Gotham A', 'Gotham B';
+    color: #eb6852;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    font-style: normal;
+}
+.rexchange .step_section > p {
+    padding-left: 130px;
+    padding-top: 25px;
+    font-family: "Gotham A", "Gotham B";
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    color: #706359;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+.rexchange .step_section {
+    float: left;
+}
+.rexchange .step_section .step_disclaimer {
+    font-style: italic !important;
+    color: #c0b6b3 !important;
+    opacity: 0.5 !important;
+    padding-left: 130px !important;
+    padding-top: 40px !important;
+}
+.rexchange .step_disclaimer > p {
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    font-weight: 300;
+    margin-bottom: 1em;
+    font-style: italic;
+    color: #706359;
+}
+.rexchange #callout {
+    height: 250px;
+}
+.rexchange #callout .callout_divider,
+.rexchange #holiday .callout_divider {
+    background: rgba(0, 0, 0, 0) linear-gradient(rgb(255, 255, 255), rgb(233, 231, 229)) repeat scroll 0 0;
+    height: 4px;
+    width: 1020px;
+}
+.rexchange #callout .callout_copy {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.rexchange #callout .inline_head {
+    font-size: 14px;
+    color: #eb6852;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+}
+.rexchange .callout_copy > p {
+    width: 75%;
+    font-family: 'Gotham A', 'Gotham B';
+    font-size: 14px !important;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.4;
+    color: #706359;
+    margin: 0 auto;
+    padding: 10px;
+    letter-spacing: 0.07em;
+}
+.rexchange .callout_copy p a {
+    width: 75%;
+    font-family: 'Gotham A', 'Gotham B';
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.4;
+    color: #686158 !important;
+    font-weight: 400;
+}
+.rexchange #re_bottom .left h2 {
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    line-height: 1.3;
+    letter-spacing: 0.09em;
+    color: #eb6852;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+}
+.rexchange #re_bottom .left p {
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    color: #706359;
+    font-weight: 300;
+    font-size: 14px;
+}
+.rexchange #re_bottom .left h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    color: #eb6852;
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    margin: 0;
+}
+.rexchange #re_bottom .gift_head {
+    height: 190px;
+    padding-top: 30px;
+}
+.rexchange #re_bottom .right {
+    background-color: rgb(243, 243, 240);
+    padding: 25px;
+}
+.rexchange #re_bottom .faq_head {
+    height: 140px;
+}
+.rexchange #re_bottom img {
+    float: left;
+    padding-right: 20px;
+}
+.rexchange #re_bottom .faq_head h2 {
+    font-size: 28px;
+    padding-top: 55px;
+}
+.rexchange #re_bottom .orange {
+    font-family: 'Gotham A', 'Gotham B';
+    color: #eb6852;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    font-weight: 300;
+}
+.rexchange #re_bottom p {
+    font-family: 'Gotham A', 'Gotham B';
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    color: #706359;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+.rexchange #re_bottom a {
+    font-family: 'Gotham A', 'Gotham B';
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    font-weight: 300;
+    color: #eb6852;
+}
+.rexchange #re_bottom {
+    margin-bottom: 60px;
+}
+#holiday .left {
+    float: left;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+#re_bottom h2,
+#holiday h2 {
+    color: rgb(235, 104, 82);
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.link-description .cta {
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+}
+.link-description h2.title {
+    font-size: 16px;
+}
+.move-walk-live .trusted-and-approved img {
+    height: 90px;
+}
+.trusted-and-approved .col-md-6:nth-child(1) {
+    border-right: 1px solid rgb(204, 204, 204);
+}
+.move-walk-live .colorblock .content img.section-title {
+    max-width: 100%;
+    width: 50%;
+}
+.conversion-guide {
+    border-bottom: 2px solid rgb(204, 204, 204);
+    padding: 20px 0;
+    text-align: center;
+}
+.conversion-text > span {
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+}
+.conversion-text > h2 {
+    color: rgb(255, 70, 18);
+}
+.conversion-text > p {
+    font-size: 16px;
+    line-height: 20px;
+}
+.women-sizes,
+.men-sizes {
+    padding: 20px 0;
+    text-align: center;
+}
+.women-sizes table td,
+.men-sizes table td {
+    font-family: "Gotham A", "Gotham B";
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+}
+.men-sizes td.thead,
+.women-sizes td.thead {
+    font-weight: 600;
+    background: #fff;
+}
+.men-sizes tr.roworange,
+.women-sizes tr.roworange {
+    background: rgb(242, 108, 74) none repeat scroll 0 0 !important;
+}
+.men-sizes tr.reven,
+.women-sizes tr.reven {
+    background: rgb(193, 182, 179) none repeat scroll 0 0 !important;
+}
+.men-sizes table,
+.women-sizes table {
+    border: medium none;
+    border-collapse: collapse;
+}
+.Orthotic-Sizing > h2 {
+    font-size: 26px;
+}
+.ostext {
+    color: rgb(153, 153, 153);
+    font-family: MrsEavesOT-Italic;
+    font-size: 24px;
+}
+.row.Orthotic-Sizing {
+    margin: 0 0 60px;
+    text-align: center;
+}
+.universal-sizing .shop-btn {
+    color: rgb(255, 70, 33);
+    font-family: MrsEavesOT-Italic;
+    font-size: 26px;
+    line-height: 30px;
+}
+.gift-guide .gift-banner {
+    background: rgba(0, 0, 0, 0) url("//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/gg-banner.png") no-repeat scroll 0 0 / cover;
+}
+.gift-banner-text {
+    color: rgb(255, 255, 255);
+    padding: 150px 0;
+}
+.gift-banner-text h2 {
+    font-size: 34px;
+    line-height: 36px;
+}
+.gift-banner-text > p {
+    font-size: 18px;
+    line-height: 22px;
+}
+.gift-patato-left .smimg {
+    max-width: 100%;
+    width: 60%;
+}
+.gphead,
+.gfthead,
+.gfthead1 {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/gg-arrow.png");
+    background-origin: padding-box;
+    background-position: left 0;
+    background-repeat: no-repeat;
+    display: block;
+    min-height: 270px;
+}
+.gphead > h2,
+.gfthead > h2,
+.gfthead1 > h2 {
+    margin: 0;
+    padding-left: 60px;
+}
+.gphead > p,
+.gfthead > p,
+.gfthead1 > p {
+    font-size: 16px;
+    padding-left: 60px;
+}
+.gphead .shop-btn,
+.gfthead a,
+.gfthead1 a {
+    color: rgb(255, 70, 18);
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 23px;
+    line-height: 32px;
+    padding-left: 60px;
+}
+.row.gift-patato-text {
+    padding: 40px 0;
+}
+.gift-guide .gptesti .quote::before,
+.gift-guide .gptesti .quote::after,
+.heel-study-benifits .testi .quote::before,
+.heel-study-benifits .testi .quote::after,
+.our-orthotics-page .testi .quote::before,
+.our-orthotics-page .testi .quote::after {
+    color: rgb(231, 231, 231);
+    font-size: 140px;
+    font-weight: 400;
+    line-height: 1;
+    position: absolute;
+}
+.gift-guide .gptesti .quote::before,
+.heel-study-benifits .testi .quote::before,
+.our-orthotics-page .testi .quote::before {
+    content: "“";
+    font-family: sans-serif;
+    left: -50px;
+    top: -50px;
+}
+.gift-guide .gptesti .quote::after,
+.heel-study-benifits .testi .quote::after,
+.our-orthotics-page .testi .quote::after {
+    content: "”";
+    font-family: sans-serif;
+    right: -50px;
+    top: 100px;
+}
+.gift-guide .gptesti .quote,
+.heel-study-benifits .testi .quote,
+.our-orthotics-page .testi .quote {
+    color: rgb(113, 98, 88);
+    font-family: MrsEavesOT-Roman;
+    font-size: 22px;
+    font-style: normal;
+    letter-spacing: 2.5px;
+    line-height: 26px;
+    margin-left: 0;
+    position: relative;
+    text-align: center;
+}
+.gift-guide .gptesti {
+    margin-top: 60px;
+}
+.gift-guide .gptesti .quote-author,
+.heel-study-benifits .testi .quote-author,
+.our-orthotics-page .testi .quote-author {
+    color: rgb(255, 70, 18);
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    margin-top: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.gfsize {
+    background: rgb(231, 247, 253) none repeat scroll 0 0;
+    margin-top: 60px;
+    padding: 20px 0;
+    text-align: center;
+}
+.gfsize .gfwtsize a {
+    color: rgb(255, 70, 18);
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 23px;
+    line-height: 32px;
+}
+.gfwtsize > p {
+    font-size: 16px;
+}
+.gfimg-col > img {
+    max-width: 100%;
+    width: 80%;
+}
+/* comfortable sandals page */
+
+.comfortable-sandals .compf-sandal {
+    margin-top: 90px;
+}
+.comfortable-sandals .compf-sandal .comf-left > h2 {
+    font-style: normal;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    color: #ff4612;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 36px;
+    margin-bottom: 15px !important;
+    margin: 0;
+}
+.comfortable-sandals .compf-sandal .comf-left > p {
+    line-height: 160%;
+    width: 85%;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.comfortable-sandals .compf-sandal .comf-left .comp-btn {
+    display: inline-block;
+    background-color: #ff4612;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    width: 330px;
+    line-height: 25px;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0 2px 0;
+}
+.custom-page-content.comfortable-walking-sandals .emphasized {
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+.comfortable-sandals .compf-sandal .comf-left img {
+    max-width: 410px;
+    width: 100%;
+}
+.comfortable-sandals .compf-sandal .comf-right img {
+    max-width: 410px;
+    width: 100%;
+}
+.comfortable-sandals .gb-tech {
+    margin-top: 20px;
+}
+.comfortable-sandals .gb-tech .comf-left img {
+    max-width: 410px;
+    width: 100%;
+}
+.comfortable-sandals .gb-tech .comf-right > h2 {
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 40px;
+    margin: 0;
+}
+.comfortable-sandals .gb-tech .comf-right > p {
+    line-height: 160%;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.comfortable-sandals .gb-tech .comf-right .cm-btn {
+    display: table;
+    text-align: left;
+    color: #ea6953;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.comfortable-sandals .gb-tech .comf-right .footnote {
+    width: 85%;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12px;
+    color: #c1b6b3;
+    font-style: italic;
+    line-height: 140%;
+}
+.comfortable-sandals .quote-sandal {
+    margin-top: 20px;
+}
+.comfortable-sandals .quote-sandal .comf-left img {
+    max-width: 350px;
+    width: 100%;
+}
+.comfortable-sandals .quote-sandal .comf-right .quote-wrapper:before {
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-image: url(//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/bracket.gif);
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+}
+.comfortable-sandals .quote-sandal .comf-right .quote-wrapper {
+    width: 290px;
+    height: 100px;
+    background-image: url(//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/quotes-light.jpg);
+    background-size: 290px 100px;
+    background-repeat: no-repeat;
+}
+.comfortable-sandals .quote-sandal .comf-right .quote p {
+    width: 200px;
+    color: rgb(138, 131, 129);
+    margin: auto;
+    text-align: center;
+}
+.comfortable-sandals .sandals-ortho-support {
+    margin: 80px 0 80px 0;
+}
+.comfortable-sandals .sandals-ortho-support .comf-left img {
+    max-width: 350px;
+    width: 100%;
+}
+.comfortable-sandals .sandals-ortho-support .comf-left .ortho-icons {
+    display: inline-block;
+}
+.comfortable-sandals .sandals-ortho-support .comf-left .ortho-icons .BuiltInOrtho {
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+    background-image: url(//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/icon-BuiltInOrtho.jpg);
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+}
+.comfortable-sandals .sandals-ortho-support .comf-left .ortho-icons .PodiatristDesigned {
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+    background-image: url(//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/icon-PodiatristDesigned.jpg);
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+}
+.comfortable-sandals .sandals-ortho-support .comf-left > h2 {
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    margin: 0;
+}
+.comfortable-sandals .sandals-ortho-support .comf-left > p {
+    line-height: 160%;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.comfortable-sandals .sandals-ortho-support .comf-left .cm-btn {
+    display: table;
+    text-align: left;
+    color: #ea6953;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 5px;
+}
+/* heel study page */
+
+.heel-study-page {
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+.heel-study-page .hs-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.heel-study-page .hs-header > h2 {
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+    margin: auto !important;
+    text-align: center !important;
+    font-size: 35px !important;
+    color: #ff4612 !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    letter-spacing: 2px !important;
+    line-height: 120% !important;
+}
+.heel-study-page .hs-header .hsresult {
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7f7773;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 130%;
+}
+.heel-study-page .hs-header .footnote {
+    margin: auto !important;
+    margin-top: 5px !important;
+    width: 85% !important;
+    text-align: center;
+    font-size: 12px !important;
+    color: #7f7773 !important;
+    font-style: italic !important;
+    letter-spacing: 1px !important;
+    line-height: 130% !important;
+}
+.heel-study-page .heel-study-left > h2 {
+    margin: 15px 0 20px 0 !important;
+    font-size: 22px !important;
+    color: #ff4612 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    line-height: 130% !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+}
+.heel-study-page .heel-study-left > p {
+    margin: 15px 0 20px 0 !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    line-height: 1.428571429 !important;
+    color: #372E2C !important;
+    margin-bottom: 1em !important;
+}
+.heel-study-page .heel-study-left .rdm-btn {
+    font-family: 'Gotham A', 'Gotham B' !important;
+    font-style: normal !important;
+    color: rgb(255, 255, 255) !important;
+    width: 200px !important;
+    line-height: 1.428571429 !important;
+    display: block !important;
+    text-align: center !important;
+    padding: 5px !important;
+    background-color: #ff4612 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    font-weight: 300 !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+.heel-study-page .quote-wrapper {
+    width: 100%;
+    text-align: center;
+    margin: 35px 0 30px 0;
+}
+.heel-study-page .quote {
+    width: 400px;
+    height: auto;
+    background-image: url(//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/quotes-light.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 130px;
+    text-align: center;
+}
+.heel-study-page .quote p {
+    width: 280px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(138, 131, 129);
+    letter-spacing: 1px;
+    line-height: 180%;
+    padding-top: 25px;
+}
+.heel-study-page .quote-author {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #ff4612;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 120%;
+}
+.heel-study-page .heel-study-right .hsr-text > p {
+    font-family: 'Gotham A', 'Gotham B' !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    line-height: 1.428571429 !important;
+    color: #372E2C !important;
+    margin-bottom: 1em !important;
+    margin: 15px 0 20px 0 !important;
+}
+.heel-study-page .heel-study-right .hsr-text > h2 {
+    margin: 15px 0 20px 0 !important;
+    font-size: 22px !important;
+    color: #ff4612 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    line-height: 130% !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+}
+.heel-study-page .shop-btn-wrapper a {
+    font-family: 'Gotham A', 'Gotham B' !important;
+    color: rgb(255, 255, 255) !important;
+}
+.heel-study-page .shop-btn {
+    font-family: 'Gotham A', 'Gotham B' !important;
+    width: 200px !important;
+    display: block !important;
+    text-align: center !important;
+    padding: 5px !important;
+    background-color: #ff4612 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    font-weight: 300 !important;
+    margin-bottom: 10px !important;
+}
+.heel-study-right .hsr-imgcol {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+}
+.heel-study-right .hsr-imgcol2 {
+    margin-top: 30px;
+}
+.heel-study-right .hsr-text > p {
+    font-size: 16px;
+}
+.heel-study-right .hsr-text h2 {
+    color: rgb(255, 70, 33);
+}
+.hsr-text .shop-btn {
+    color: rgb(255, 70, 18);
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+}
+.heel-study-left .hsl-imgcol {
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    width: 80%;
+}
+.heel-study-left .link-karina,
+.heel-study-right .link-karina {
+    bottom: 4%;
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+}
+.heel-study-left .link-nala,
+.heel-study-right .link-nala {
+    bottom: 14%;
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+    position: absolute;
+    right: 20%;
+}
+.heel-study-benifits {
+    padding-bottom: 40px;
+}
+/* about our orthotics */
+
+.abtorthotics.wide-top {
+    height: auto;
+    margin: 20px auto 15px;
+    text-align: center;
+}
+.abtorthotics.wide-top h1 {
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+    margin-left: auto !important;
+    margin-right: auto;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: #ea6953 !important;
+    font-size: 35px !important;
+    font-weight: 400 !important;
+    letter-spacing: 2px !important;
+    margin: 0;
+}
+.abtorthotics.wide-top h2 {
+    margin: 0 auto !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: #ea6953 !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 2px !important;
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+}
+.abtorthotics.wide-top p {
+    font-family: 'Gotham A', 'Gotham B' !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 65% !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    line-height: 1.428571429 !important;
+    color: #372E2C !important;
+}
+.abtorthotics.wide-top .shop-btn {
+    background-color: #ea6953;
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+}
+.abtorthotics.wide-top .orthotics-btn-wrapper {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.abtorthotics #orthotic-image {
+    border: 0 none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+.ortho-grey-box {
+    background: #efedec;
+    padding: 10px 0;
+    text-align: center;
+}
+.ortho-grey-box h2 {
+    text-transform: uppercase !important;
+    color: #ea6953 !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    margin-top: 0px !important;
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+    margin: 0;
+}
+.ortho-grey-box > p {
+    margin-bottom: 1em;
+    font-family: 'Gotham A', 'Gotham B' !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    line-height: 1.428571429 !important;
+    color: #372E2C !important;
+    margin: 0;
+    margin-bottom: 1em;
+}
+.orthotics-left-col img#product-img-sm,
+.orthotics-right-col img#product-img {
+    border: 0 none;
+    display: block;
+    height: 150px;
+    margin: 30px auto 4px;
+    width: auto;
+}
+.our-orthotics-page .product-box,
+.our-orthotics-page .orthotics-product-box {
+    border: 1px solid rgb(112, 98, 89);
+    display: inline-block;
+    margin: 0 0 20px 0;
+    height: 300px;
+}
+.our-orthotics-page #product-icon {
+    border: 0 none;
+    float: right;
+    height: auto;
+    padding: 20px 15px 0 0;
+    width: 120px;
+}
+.orthotics-product-box .product-box-desc,
+.product-box .product-box-desc {
+    float: left;
+    text-align: left;
+    vertical-align: middle;
+    width: 60%;
+    height: auto;
+    padding: 20px 0 0 20px;
+    font-size: 13.5px;
+    line-height: 160%;
+}
+.product-box-banner {
+    border-bottom: 1px solid rgb(112, 98, 89);
+}
+.coldweather-box {
+    border: 1px solid rgb(112, 98, 89);
+    margin: 0;
+    display: block;
+}
+.coldweather-right > h2 {
+    text-transform: uppercase !important;
+    color: #ea6953 !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    margin-top: 20px !important;
+    margin: 0;
+}
+.coldweather-right > p {
+    line-height: 160%;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    color: #372E2C;
+    margin: 0;
+}
+.coldweather-right .text-link {
+    display: table !important;
+    text-align: left !important;
+    color: #ea6953 !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    margin-top: 5px !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    line-height: 1.428571429 !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+}
+.coldweather-right img {
+    margin: 10px 0;
+    max-width: 100%;
+    width: 70%;
+}
+.opw-left-col img#product-img-sm,
+.opw-right-col img#product-img {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    height: 150px;
+    width: auto;
+    border: 0;
+}
+.aop-grey-box {
+    background: rgb(239, 237, 236) none repeat scroll 0 0;
+    margin: 20px 0;
+}
+.aop-grey-box .aop-gb-left {
+    margin: 0;
+    padding: 20px 10px 20px 0;
+}
+.aop-gb-right > h2 {
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 16px;
+    font-weight: 300 !important;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.aop-gb-right > p {
+    line-height: 160%;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px !important;
+    color: #372E2C;
+    margin: 0;
+}
+.aop-gb-right .text-link {
+    display: table !important;
+    text-align: left !important;
+    color: #ea6953 !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    margin-top: 5px !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    line-height: 1.428571429 !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+    letter-spacing: 0px;
+}
+.our-orthotics-page .quote-wrapper {
+    width: 375px;
+    height: 175px;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: -40px;
+}
+.our-orthotics-page .quote-1,
+.our-orthotics-page .quote-2 {
+    width: 288px;
+    height: 96px;
+    background-image: url(//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/quotes-2.gif);
+    background-repeat: no-repeat;
+    background-size: 288px 96px;
+    text-align: center;
+    margin: auto;
+}
+.our-orthotics-page .quote-1 p,
+.our-orthotics-page .quote-2 p {
+    display: block !important;
+    margin: auto !important;
+    padding: 15px 0 0 0 !important;
+    width: 200px !important;
+    color: rgb(138, 131, 129) !important;
+    text-align: center !important;
+    line-height: 160% !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+}
+.our-orthotics-page .quote-1 .source,
+.our-orthotics-page .quote-2 .source {
+    display: block !important;
+    color: rgb(234, 105, 83) !important;
+    font-weight: 500 !important;
+    margin-top: 15px !important;
+}
+.aop-gb-left img {
+    padding-top: 40px;
+}
+.aop-boot-col {
+    margin: 40px 0 100px 0;
+}
+.aopbc-left-col > h2 {
+    font-style: normal;
+    font-family: 'Gotham A', 'Gotham B';
+    text-transform: uppercase;
+    color: #ea6953;
+    font-size: 16px;
+    font-weight: 300 !important;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.aopbc-left-col > p {
+    line-height: 160%;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px !important;
+    color: #372E2C;
+    margin: 0;
+}
+.aopbc-left-col .text-link {
+    display: table !important;
+    text-align: left !important;
+    color: #ea6953 !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    margin-top: 5px !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    line-height: 1.428571429 !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+    letter-spacing: 0px;
+}
+/* TIDE FAMILY PAGE */
+
+.tide-family-top {
+    padding: 80px 0 0;
+}
+.tide-family-page .tft-left .tftxt {
+    text-align: center;
+}
+.tide-family-page .tftxt > h2 {
+    padding-top: 0;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ff4612;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    padding-bottom: 12px;
+    margin: 0;
+}
+.tide-family-page .tftxt > p {
+    color: #000;
+    font-family: 'Gotham A', 'Gotham B', arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 12px;
+    margin: 0;
+    letter-spacing: 1.3px;
+}
+.tide-family-page .tft-left .tftxt h3 {
+    text-transform: uppercase;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    font-size: 20px;
+    color: #ff4612;
+    letter-spacing: 1.3px;
+    margin: 0;
+}
+.tide-family-page .tft-left .tftxt .lrn-more {
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ff4612;
+    padding-bottom: 12px;
+    letter-spacing: 1.3px;
+}
+.tide-family-page .tft-imgcol > img {
+    bottom: 50%;
+    float: right;
+    left: 35%;
+    max-width: 100%;
+    position: relative;
+    width: 60%;
+    z-index: 9;
+}
+.tide-family-page .tft-imgcol .TideII {
+    bottom: 13px;
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+    position: absolute;
+    right: -30px;
+    z-index: 9;
+}
+.tide-family-page .tft-right .tft-rimgcol {
+    position: relative;
+}
+.tide-family-page .tft-right .TideSport {
+    bottom: 8%;
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+    left: 45%;
+    position: absolute;
+}
+.tide-family-page .tfprodcol {
+    margin: 60px 0 60px 0;
+}
+.tide-family-page .tfprodcol .tfprodcoltxt {
+    text-align: center;
+    margin: 60px 0;
+}
+.tide-family-page .tfprodcol .tfprodcoltxt h2 {
+    font-size: 24px;
+    line-height: 26px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    padding-top: 0;
+    padding-bottom: 12px;
+    letter-spacing: 1.3px;
+    color: #ff4612;
+    margin: 0;
+}
+.tide-family-page .tfprodcol .tfprodcoltxt > p {
+    color: #000;
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 12px;
+    margin: 0;
+    letter-spacing: 1.3px;
+}
+.tide-family-page .tfp-style {
+    background: rgb(249, 248, 248) none repeat scroll 0 0;
+    margin: 40px 0;
+    padding: 88px 0 88px 0;
+}
+.tide-family-page .tfp-style-text {
+    text-align: center;
+}
+.tide-family-page .tfp-style-text > span {
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+.tide-family-page .tfp-style-text > h2 {
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    letter-spacing: 1.3px;
+    margin: 0;
+}
+.tide-family-page .tfp-style-left .lrn-more {
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ff4612;
+    padding-bottom: 12px;
+    letter-spacing: 1.3px;
+}
+.tide-family-page .crowd-fav-txt {
+    padding: 10px 0 40px;
+    text-align: center;
+}
+.tide-family-page .crowd-fav-txt > img {
+    max-width: 100%;
+    width: 190px;
+    padding-bottom: 6px;
+}
+.tide-family-page .crowd-fav-txt > h2 {
+    font-size: 30px;
+    line-height: 36px;
+    padding-bottom: 6px;
+    color: #ff4612;
+    padding-top: 0;
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin: 0;
+}
+.tide-family-page .crowd-fav-txt > span {
+    font-family: SackersGothicStd-Medium, sans-serif;
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 20px;
+    padding-bottom: 6px;
+    margin: 0;
+}
+.tide-family-page .crowd-fav-txt > p {
+    color: #000;
+    font-family: "Gotham A", "Gotham B", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 12px;
+    margin: 0;
+    letter-spacing: 1.3px;
+}
+.tide-family-page .cftesti > p {
+    font-family: MrsEavesOT-Roman, "times new roman", serif;
+    color: #706259;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 15px;
+}
+.tide-family-page .cftesti {
+    padding: 10px 30px;
+    text-align: center;
+}
+.tide-family-page .cftesti > span {
+    font-family: MrsEavesOT-Italic, "times new roman", serif;
+    color: #ff4612;
+    font-size: 20px;
+    padding-top: 24px;
+}
+.tide-family-page .cft-imgcol {
+    float: right;
+    left: 30%;
+    max-width: 100%;
+    position: relative;
+    top: 10%;
+    width: 80%;
+    z-index: 9;
+}
+.tide-family-page .cfrimgcol {
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    width: 90%;
+}
+.tide-family-page .footnote {
+    display: block;
+    margin: 0px auto 30px auto;
+    text-align: center;
+    font-size: 10px;
+    color: #999999;
+    width: 100%;
+}
+.TideSequins {
+    bottom: 20%;
+    color: rgb(242, 108, 74);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    left: 0;
+    line-height: 22px;
+    position: absolute;
+}
+.Tidelnk {
+    bottom: -8%;
+    color: rgb(242, 108, 74);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    left: 50%;
+    line-height: 22px;
+    position: absolute;
+}
+.crowd-fav-testimonial {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.tfprodcol .tftprodct {
+    width: 20%;
+    text-align: center;
+}
+.col-md-2.tftprodct > img {
+    height: 320px;
+}
+.tftprodct .prodlink {
+    color: rgb(242, 108, 74);
+    font-family: MrsEavesOT-Italic;
+    font-size: 18px;
+    line-height: 20px;
+}
+.prodclrs {
+    list-style: outside none none;
+    padding: 0;
+    text-align: center;
+}
+.prodclrs li {
+    border-radius: 20px;
+    display: inline-block;
+    height: 20px;
+    margin: 10px 2px;
+    padding: 5px;
+    width: 20px;
+}
+.pc-black {
+    background: rgb(0, 0, 0) none repeat scroll 0 0;
+}
+.pc-blue {
+    background: rgb(58, 60, 91) none repeat scroll 0 0;
+}
+.pc-grey {
+    background: rgb(217, 210, 190) none repeat scroll 0 0;
+}
+.pc-yellow {
+    background: rgb(233, 212, 166) none repeat scroll 0 0;
+}
+.pc-brown {
+    background: rgb(122, 97, 71) none repeat scroll 0 0;
+}
+.pc-white {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border: 1px solid rgb(204, 204, 204);
+}
+.pc-ltgrey {
+    background: rgb(215, 212, 193) none repeat scroll 0 0;
+}
+.pc-red {
+    background: rgb(240, 99, 95) none repeat scroll 0 0;
+}
+.pc-ltblue {
+    background: rgb(21, 169, 203) none repeat scroll 0 0;
+}
+.pc-orange {
+    background: rgb(55, 58, 74) none repeat scroll 0 0;
+}
+.pc-drkbrown {
+    background: rgb(118, 77, 43) none repeat scroll 0 0;
+}
+/* HOMEPAGE */
+.smart-style {
+	margin: 0 auto;
+}
+.smart-style .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+.smart-style .row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.smart-style .row .col-md-6 {
+	padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.smart-style .row .right {
+	background: #000 !important;
+}
+.smart-style .row a {
+  line-height: 0;
+}
+.smart-style h3 {
+	display: block; 
+  	margin: 90px auto 25px; 
+  	text-align: center; 
+  	font-family: MrsEavesOT-Roman; 
+  	font-size: 40px; 
+  	color: #a29d9c; 
+  	line-height: 102%;
+  	max-width: 390px;
+}
+.smart-style a#cta-1 {
+  	line-height: 20px !important;
+  	margin: 0 auto;
+  	color: #a29d9c; 
+}
+.style-content {
+    background-color: #000000;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+.orthoheel-hmpg-top {
+    padding-top: 24px;
+}
+.home-top-promo {
+    display: block;
+    margin: 0 0 24px 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.home-top-promo #home-headline {
+    display: block;
+    text-align: center;
+    margin: 0 auto 2px auto !important;
+    font-family: SackersGothicStd-Medium;
+    font-size: 20px;
+    color: #00aced;
+    text-transform: uppercase;
+    line-height: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.home-top-promo #red {
+    color: #ff0000;
+}
+.home-top-promo #home-top-promo-link {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 100;
+}
+.orheel-hmpgl-imgcol {
+    left: 0;
+    position: relative;
+    top: 70px;
+    z-index: 2;
+    width: 300px;
+}
+.orheel-hmpgl-imgcol a {
+    bottom: 15%;
+    font-family: MrsEavesOT-Italic;
+    font-size: 19px;
+    left: 37%;
+    position: absolute;
+    letter-spacing: 1.5px;
+}
+.ortho-hmpg-right {
+    position: relative;
+    right: 0;
+    top: 100px;
+    z-index: 2;
+}
+.ortho-hmpg-txt {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 280px;
+      background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+}
+.ortho-hmpg-txt > h2 {
+    text-align: left;
+    font-family: SackersGothicStd-Medium;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 120%;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.ortho-hmpg-txt > p {
+    font-size: 16px;
+    line-height: 20px;
+}
+.ortho-hmpg-txt > a {
+    color: #fff;
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 22px;
+}
+.ona-imgcol {
+    bottom: 25px;
+    float: right;
+    max-width: 100%;
+    position: relative;
+    right: 60px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #b6b6b6;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.ona-imgcol a {
+    position: absolute;
+    bottom: 0px;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 22px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+.onar-imgcol {
+    bottom: 100px;
+    right: -85px;
+    max-width: 100%;
+    position: relative;
+    width: 70%;
+    z-index: 0;
+    text-align: center;
+}
+.onar-imgcol .onar-shopbtn {
+    display: block !important;
+    width: 190px !important;
+    height: 35px !important;
+    margin: 10px auto !important;
+    font-family: SackersGothicStd-Medium !important;
+    color: #ffffff !important;
+    border: 1px solid white !important;
+    line-height: 35px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+.home-shop-btn-wrapper {
+    position: absolute;
+    display: block;
+    margin: -65px auto 0;
+    width: 100%;
+}
+.home-shop-btn {
+    margin: 0 auto;
+    width: 190px;
+    height: 35px;
+    display: block;
+    margin: 8px auto;
+    font-family: SackersGothicStd-Medium;
+    color: #ffffff;
+    /* was #ffffff */
+    
+    border: 1px solid white;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #000000;
+    /* background: rgba(255, 255, 255, 0.2); */
+}
+.home-shop-btn:hover {
+    color: #ffffff;
+}
+.col-md-6.ortho-hmpg-middle {
+    z-index: 1;
+}
+.ortho-hmpg-middle img {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 715px;
+    max-width: 715px;
+    height: auto;
+    left: -110px;
+}
+.oheel-support-right img {
+    width: 470px;
+}
+.oheel-support .oheel-support-left #preheader {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    color: #000000;
+    line-height: 120%;
+}
+.oheel-support .oheel-support-left h3 {
+    text-align: center;
+    margin: 10px auto;
+    font-family: SackersGothicStd-Medium;
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 120%;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.oheel-support .oheel-support-left #tech-video-link {
+    display: block;
+    margin: 40px auto 0;
+    width: 250px;
+    height: 60px;
+    border-top: 1px solid #4c4c4c;
+    border-bottom: 1px solid #4c4c4c;
+}
+.oheel-support .oheel-support-left #cta-5 {
+    display: inline-block;
+    margin: 14px auto;
+    text-align: center;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    color: #7d7879;
+    font-weight: 100;
+}
+.oheel-lv-right {
+    background: rgb(0, 0, 0) none repeat scroll 0 0;
+    padding-bottom: 9px;
+    padding-left: 0;
+    text-align: center;
+}
+.oheel-testi {
+    padding: 80px 50px 50px;
+}
+.oheel-testi > p {
+    color: rgb(75, 66, 64);
+    font-family: MrsEavesOT-Roman;
+    font-size: 28px;
+    line-height: 30px;
+    padding: 0 80px;
+}
+.hoxoimg {
+    width: 50%;
+}
+#lookbook-2 a {
+    color: rgb(162, 157, 156);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 20px;
+}
+#lookbook-2 {
+    color: rgb(162, 157, 156);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 22px;
+    padding: 40px 0 86px;
+}
+.col-md-6.oheel-lv-left {
+    padding-right: 0;
+}
+.ortho-cozi-cmfrt {
+    background: rgba(0, 0, 0, 0) url("//cdn.shopify.com/s/files/1/1649/3051/t/2/assets/hheel-md-bg.jpg") no-repeat scroll 0 0 / cover;
+    margin: 60px 0;
+}
+.ocozi-imgcol {
+    max-width: 100%;
+    padding: 120px 0;
+    position: relative;
+    width: 60%;
+}
+.ocozi-imgcol > a {
+    bottom: 160px;
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    left: 110px;
+    line-height: 20px;
+    position: absolute;
+}
+.ocozi-txt {
+    color: rgb(255, 255, 255);
+    padding: 80px;
+    text-align: center;
+}
+.ocozi-txt > h2 {
+    font-size: 28px;
+    line-height: 28px;
+}
+.ocozi-txt > p {
+    font-size: 18px;
+    line-height: 20px;
+}
+.ocozi-txt > a {
+    color: rgb(255, 70, 18);
+    display: block;
+    font-family: MrsEavesOT-Italic;
+    font-size: 22px;
+    line-height: 26px;
+}
+.oheel-support {
+    /* background: rgb(249, 248, 248) none repeat scroll 0 0;*/
+    
+    margin-bottom: 60px;
+    /* padding: 80px 0; 8 */
+}
+.osupport-txt {
+    padding: 60px 0;
+    text-align: center;
+}
+.osupport-txt > span {
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 20px;
+}
+.osupport-txt > a {
+    color: rgb(255, 70, 18);
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    line-height: 26px;
+}
+.oh-solestory {
+    background: rgb(139, 218, 247) none repeat scroll 0 0;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+.oh-solestory-left {
+    text-align: center;
+}
+.oh-solestory-txt > img {
+    max-width: 100%;
+    width: 280px;
+}
+.oh-solestory-txt > p {
+    text-align: center;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    color: #000000;
+    padding: 20px 0;
+    line-height: 120%;
+}
+.oh-solestory-txt {
+    padding-top: 95px;
+}
+.oh-solestory-right > img {
+    width: 450px;
+    max-width: 100%;
+}
+.oheel-bottom-txt {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.oheel-bottom-txt > h2 {
+    font-family: SackersGothicStd-Medium;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.oheel-bottom-txt > p {
+    margin-bottom: 1em;
+}
+.oheel-bottom-txt > p#footnote {
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    font-style: normal;
+}
+.left-col a#cta-1,
+.mid-col a#cta-1,
+.right-col a#cta-1 {
+    font-family: MrsEavesOT-Italic;
+    font-size: 24px;
+    line-height: 30px;
+}
+.es-supportive-style .text-col .button-label {
+    border: 2px solid rgb(224, 224, 224);
+    color: rgb(162, 157, 156);
+    display: inline-block;
+    font-family: SackersGothicStd-Medium;
+    font-size: 18px;
+    font-style: normal;
+    padding: 5px 20px;
+}
+.body-full-width .full-width-page-content .gift-guide .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.standard-body .full-width .error-page-bottom .container {
+    padding-left: 0;
+}
+.error-page-bottom {
+    margin-bottom: 100px;
+}
+.for-mb-col,
+.slipper-mob-col,
+.pf-mobile {
+    display: none;
+}
+.findhead {
+    padding-top: 40px;
+}
+.abtvionic-mobile,
+.newarrival-mob,
+.sec-for-mob {
+    display: none;
+}
+.hsp-onmobile-mob,
+.comfortable-sandals .cfsm-mobile {
+    display: none;
+}
+.new-ar-vedio {
+    height: 772px;
+    width: 100%;
+}
+.player .video-wrapper {
+    background: #94A3C0 !important;
+}
+.supportive-technology-page .supportive-banner-img img {
+    display: block;
+    width: 236px !important;
+}
+/* EMAIL SIGN UP PAGE */
+
+.email-sign-up-page {
+    margin: 0px 0 40px;
+}
+.standard-body .full-width .email-sign-up-page .container {
+    padding-left: 0;
+}
+.email-sign-up-page .left-col-nar-ns {
+    margin: 40px 0 0;
+}
+.email-sign-up-page h1 {
+    font-family: SackersGothicStd-Medium;
+    font-size: 20px;
+    color: #ff4612;
+    text-transform: uppercase;
+    line-height: 140%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
+    width: 100%;
+}
+.email-sign-up-page p#ital {
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 100;
+    line-height: 110%;
+    margin: 10px 0 20px;
+    width: 60%;
+}
+.email-sign-up-page p.desc {
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px !important;
+    line-height: 1.428571429;
+    color: #000;
+}
+.email-sign-up-page #newsletter_signup_form input.fb-email {
+    float: left;
+    height: auto;
+    line-height: 16px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: MrsEavesOT-Italic;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 100;
+    max-width: 200px;
+    background: #fff;
+    padding: 10px 5px 0 5px;
+}
+/* 30 DAY GUARANTEE */
+
+.vionic-30-day-guarantee {
+    margin: 0px 0px 50px 0px !important;
+}
+.standard-body .full-width .vionic-30-day-guarantee .container {
+    padding-left: 0;
+}
+.vionic-30-day-guarantee .breadcrumbs {
+    padding: 2px 0px 2px !important;
+    text-align: left !important;
+    margin-top: 0px !important;
+}
+.vionic-30-day-guarantee .breadcrumbs ul {
+    /* -webkit-margin-before: 0em !important; */
+    
+    -webkit-padding-start: 10px !important;
+    margin-bottom: 20px !important;
+}
+.vionic-30-day-guarantee .left-col {
+    padding-bottom: 24px;
+}
+.vionic-30-day-guarantee .breadcrumbs li {
+    display: inline;
+    font-weight: 300;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.vionic-30-day-guarantee h1 {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    text-transform: none !important;
+    color: #ea6953 !important;
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B' !important;
+    line-height: 1.428571429 !important;
+}
+.vionic-30-day-guarantee h2 {
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-family: 'Gotham A', 'Gotham B';
+    color: #372E2C !important;
+    margin-top: 35px !important;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+}
+.vionic-30-day-guarantee p a {
+    font-family: 'Gotham A', 'Gotham B';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #686158;
+    text-decoration: none;
+    font-weight: 400;
+}
+.vionic-30-day-guarantee p a:hover {
+    color: #ea6953 !important;
+}
+.vionic-30-day-guarantee p {
+    margin-bottom: 1em;
+}
+.vionic-30-day-guarantee .right-col {
+    text-align: center;
+}
+.vionic-30-day-guarantee .right-col img {
+    width: 276px;
+    margin: 0 auto;
+}
+/********************* Responsive CSS ***************************/
+
+@media screen and (max-width: 991px) {
+    /* SMART STYLE SECTION */
+    .smart-style .row .right {
+		width: 800px !important;
+      	background: #000 !important;
+    }
+  	.smart-style .row .right .signature {
+     	padding-bottom: 80px; 
+    }
+
+    /* HOMEPAGE BANNER */
+    .col-md-6.ortho-hmpg-middle {
+        text-align: center !important;
+    }
+    .ortho-hmpg-middle img {
+        position: relative !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        width: 100% !important;
+        max-width: 715px !important;
+        height: auto !important;
+        left: 0px !important;
+        right: 0px !important;
+    }
+    .ortho-hmpg-txt {
+        position: absolute;
+        text-align: center;
+        top: 25%;
+        width: 100%;
+    }
+    .onar-imgcol {
+        bottom: 100px;
+        right: 0;
+        left: 0;
+        max-width: 100%;
+        position: relative;
+        width: 70%;
+        z-index: 0;
+        text-align: center;
+    }
+    .walk-live-banner {
+        width: 100%
+    }
+    .move-walk-live .banner-text {
+        padding: 0 0 20px;
+        width: 45%;
+    }
+    .move-walk-live .section-intro.move {
+        border: none;
+    }
+    .move-walk-live .link-description {
+        padding: 0px 0 20px 0 !important;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .move-walk-live .walkinbenifits .benifits-col2 {
+        padding: 0 0 20px;
+        border: none;
+    }
+    .move-walk-live .free-download .button-label {
+        width: 300px;
+        height: 36px;
+        margin: 0 auto;
+    }
+    .move-walk-live .trusted-and-approved .leftcol {
+        border-right: 0px solid #a39e9d !important;
+    }
+    .universal-sizing,
+    .page-plantar,
+    .rexchange,
+    .heel-study-page,
+    .our-orthotics-page {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .page-ortheel-technology {
+        padding: 40px 15px;
+    }
+    .page-ortheel-technology {
+        padding: 30px 15px 0;
+        text-align: center;
+    }
+    .page-ortheel-technology .quote p {
+        padding: 5px 70px;
+    }
+    .page-ortheel-technology .quote:before {
+        left: 70px;
+    }
+    .page-ortheel-technology .quote:after {
+        right: 70px;
+        bottom: 70px;
+    }
+    .return-exchange {
+        text-align: center;
+    }
+    #steps .step_disclaimer {
+        padding-left: 0;
+    }
+    #thirty_day {
+        text-align: center;
+    }
+    .page-slipper .full-width-background.introduction {
+        height: auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .pg-find30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .supportive-technology-page {
+        text-align: center;
+    }
+    .supportive-technology-page .image-col {
+        padding: 20px 0 0;
+        text-align: center;
+    }
+    .supportive-technology-page .supportive-banner-img img {
+        display: block;
+        width: 236px !important;
+        margin: 0 auto;
+    }
+    .elevated-technology .fancy-list .fancy-list-item-ordinal {
+        float: none;
+        margin: 0 auto;
+    }
+    .elevated-technology .fancy-list .fancy-list-item-content .effect {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    .elevated-technology .fancy-list .fancy-list-item-content .cause {
+        padding-left: 0;
+    }
+    .elevated-technology .button-label {
+        margin: 20px auto !important;
+    }
+    .elevated-technology .title {
+        width: 100%;
+    }
+    .elevated-technology p.supporting-copy {
+        width: 100%;
+    }
+    .elevated-technology .cta.highlight,
+    .trusted-and-approved .cta.highlight {
+        padding-right: 0px;
+    }
+    .elevated-technology .col.img-col {
+        padding-top: 0px;
+    }
+    .vionic-inside .vionic-inside-content {
+        padding-top: 0px;
+    }
+    .vionic-inside .supporting-copy {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .trusted-and-approved .col-md-6:nth-child(1) {
+        border-right: 0 none;
+    }
+    .trusted-and-approved .supporting-copy.podiatric {
+        width: 100%;
+    }
+    .trusted-and-approved .supporting-copy.vionic-lab {
+        width: 100%;
+    }
+    .vionic-lab-logo {
+        padding-top: 40px;
+    }
+    .email-sign-up-page {
+        text-align: center;
+    }
+    .email-sign-up-page .left-col-nar-ns h1 {
+        width: 100%;
+    }
+    .email-sign-up-page .field.fb-email {
+        float: none;
+    }
+    .new-arrivals .responsive-supportive .picture-links .link.elation {
+        left: 200px;
+        top: 450px;
+    }
+    .new-arrivals .col-left img,
+    .espadrilles .esp-left img {
+        margin: 0 auto 20px;
+    }
+    .whatnew .picture-container .picture-links .link.bria {
+        right: 150px;
+        top: 80%;
+    }
+    .whatnew .picture-container .picture-links .link.caballo {
+        bottom: 30px;
+    }
+    .about-vionic-page {
+        text-align: center;
+    }
+    .about-vionic-page .abt-history .abt-background-image {
+        width: 100%;
+        background-image: none;
+    }
+    .about-vionic-page .text-link {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about-vionic-page .shop-btn {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about-vionic-page #footnote {
+        width: 100%;
+    }
+    .about-vionic-page .the-source-innovation .left-col img.desktop-version {
+        display: none;
+    }
+    .about-vionic-page .the-source-innovation .left-col img.mobile-version {
+        display: block;
+        width: 270px;
+        margin: 0 auto;
+    }
+    .compf-sandal-text {
+        text-align: center;
+    }
+    .comfortable-sandals .comp-btn {
+        margin: 20px 40px;
+    }
+    .heel-study-page {
+        text-align: center;
+    }
+    .heel-study-page .quote {
+        margin: 0 auto;
+    }
+    .heel-study-page .heel-study-left .rdm-btn {
+        margin: 0 auto !important;
+    }
+    .heel-study-page .shop-btn {
+        margin: 0 auto 10px !important;
+    }
+    .aop-gb-right {
+        text-align: center;
+    }
+    .aop-gb-right .text-link,
+    .aopbc-left-col .text-link,
+    .coldweather-right .text-link {
+        display: block;
+        text-align: center;
+    }
+    .aopbc-left-col,
+    .aopbc-right-col,
+    .coldweather-right {
+        text-align: center;
+    }
+    /* ABOUT OUR ORTHOTICS PAGE */
+    
+    .our-orthotics-page .product-box,
+    .our-orthotics-page .orthotics-product-box {
+        height: auto;
+    }
+    .our-orthotics-page #product-icon {
+        padding: 20px 15px 30px 0;
+    }
+    .coldweather-right .text-link,
+    .aop-gb-right .text-link,
+    .aopbc-left-col .text-link {
+        margin: 0 auto;
+    }
+    .our-orthotics-page .quote-wrapper {
+        width: 375px;
+        height: 175px;
+        float: left;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .tide-family-page {
+        text-align: center;
+    }
+    .tide-family-page .tft-imgcol > img {
+        bottom: 0;
+        float: none;
+        left: 0;
+    }
+    .tft-imgcol .TideII {
+        bottom: 35px;
+        left: 0;
+        right: 0;
+    }
+    .tfprodcol .tftprodct {
+        width: 100%;
+    }
+    .tftprodct .prodlink {
+        display: block;
+    }
+    .cft-imgcol {
+        float: none;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .cfrimgcol {
+        margin: 0 auto;
+    }
+    .orthoheel-homepage {
+        text-align: center;
+    }
+    .home-top-promo {
+        display: block;
+        margin-bottom: 110px;
+    }
+    .orheel-hmpgl-imgcol {
+        left: 0;
+        right: 0;
+        top: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .orheel-hmpgl-imgcol img {
+        width: 300px;
+    }
+    .orheel-hmpgl-imgcol a {
+        left: 0;
+        right: 0;
+    }
+    .ortho-hmpg-right {
+        right: 0;
+        top: 0;
+    }
+    .ona-imgcol {
+        bottom: 0;
+        float: none;
+        margin: 0 auto;
+        right: 0;
+        margin-top: -60px;
+        margin-bottom: 60px;
+    }
+    .ona-imgcol img {
+        width: 295px;
+    }
+    .onar-imgcol {
+        bottom: 0;
+        margin: 0 auto;
+    }
+    .ona-imgcol a {
+        font-size: 18px;
+        left: 0;
+        right: 0;
+        bottom: 40px;
+    }
+    .oheel-nwarrival {
+        padding-top: 170px;
+    }
+    .col-md-6.oheel-lv-left {
+        padding-right: 10px;
+    }
+    .oheel-lv-right {
+        margin: 10px;
+    }
+    .ortho-cozi-cmfrt {
+        background-size: 100%;
+    }
+    .ocozi-imgcol {
+        padding: 20px 0;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .ocozi-txt {
+        color: rgb(0, 0, 0);
+        padding: 20px;
+    }
+    .ocozi-imgcol > a {
+        bottom: 70px;
+    }
+    .oheel-support,
+    .oh-solestory {
+        padding: 0;
+    }
+    .gift-guide .gift-banner {
+        background-size: 100%;
+    }
+    .gift-banner-text {
+        padding: 50px 0;
+    }
+    .gift-patato {
+        text-align: center;
+    }
+    .gphead,
+    .gfthead,
+    .gfthead1 {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+    .giftprds {
+        text-align: center;
+    }
+    .col-wrapper-404 {
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+    .left-col-nar #title {
+        margin-top: 0;
+    }
+    .col-wrapper-404 .left-col-nar {
+        margin-bottom: 40px;
+    }
+    /***************************/
+    
+    .ortho-hmpg-left,
+    .ortho-hmpg-middle,
+    .ortho-hmpg-right,
+    .ona-left .ona-imgcol,
+    .oh-solestory-txt,
+    .oh-solestory-right {
+        padding-bottom: 40px;
+    }
+    .onar-imgcol,
+    .oheel-lv-imgcol {
+        margin-bottom: 40px;
+    }
+    .onar-imgcol .onar-shopbtn {
+        left: 0;
+        right: 0;
+        width: 200px;
+        margin: 0 auto;
+    }
+    /***************************/
+    /*****elevated support***/
+    
+    .elevated-support .fancy-list .fancy-list-item-ordinal {
+        float: none;
+        margin: 5px auto;
+        text-align: center;
+    }
+    .elevated-support {
+        text-align: center;
+    }
+    .elevated-support .videos img {
+        margin: 20px auto;
+    }
+    .elevated-support .videos .innovation {
+        padding-bottom: 40px;
+    }
+    .elevated-support .fancy-list .fancy-list-item-content .bullet-copy {
+        padding-left: 0;
+    }
+    .elevated-support .videos .contours {
+        padding-right: 0px;
+    }
+    .elevated-support .videos .innovation {
+        padding-left: 0px;
+    }
+    .elevated-support .videos .contours img {
+        clear: both;
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+    }
+    .elevated-support .videos .innovation img {
+        clear: both;
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+    }
+    .walkinbenifits.formobile {
+        display: none;
+    }
+    .for-mb-col {
+        display: block;
+    }
+    .benifits-col,
+    .benifits-col2 {
+        background: rgb(249, 248, 248) none repeat scroll 0 0;
+        padding: 20px 0;
+        text-align: center;
+    }
+    /*****************************/
+    
+    .full-width.soft-relief {
+        text-align: center;
+    }
+    .page-slipper .fancy-list-item-ordinal {
+        margin: 5px auto;
+        float: none;
+    }
+    .page-slipper .fancy-list .fancy-list-item-content {
+        padding-left: 0;
+    }
+    .page-slipper .support-in-style .text-col {
+        text-align: center;
+    }
+    .page-slipper .support-in-style .text-col .supporting-copy {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .women-shipper-top {
+        text-align: center;
+    }
+    .slipper-mob-col,
+    .pf-mobile {
+        display: block;
+    }
+    .slipper-dsk-col,
+    .pf-desktop {
+        display: none;
+    }
+    .sep.pgf30-mob {
+        display: none;
+    }
+    .findhead {
+        padding-bottom: 40px;
+    }
+    /*************find30*********/
+    
+    .findhead {
+        background: rgb(255, 70, 18) none repeat scroll 0 0;
+    }
+    .findhead h2 {
+        color: #fff;
+    }
+    .findhead span {
+        color: #fff;
+    }
+    .findright {
+        background: rgb(255, 236, 231) none repeat scroll 0 0;
+    }
+    .findright .imgcol {
+        text-align: center;
+    }
+    .findright .imgcol {
+        display: none;
+    }
+    .col-md-6.outfleft .col-md-6,
+    .col-md-6.outfright .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .findleft {
+        padding-top: 30px;
+    }
+    .findright {
+        padding-bottom: 30px;
+    }
+    .abtvionic-mobile {
+        display: block;
+    }
+    .abtvionic-desktop {
+        display: none
+    }
+    .about-vionic-page .text-link {
+        text-align: left;
+    }
+    .abt-his-img {
+        display: none;
+    }
+    .about-vionic-page .text-link {
+        text-align: center;
+    }
+    .abt-history {
+        text-align: left;
+    }
+    .about-vionic-page .leftcol .text-link {
+        text-align: left;
+    }
+    .cftesti > p {
+        font-style: normal;
+    }
+    .return-exchange.rexsecondprt {
+        background: rgb(255, 249, 248) none repeat scroll 0 0;
+    }
+    .return-exchange img {
+        display: none;
+    }
+    .return-exchange #re_header h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .rexchange #steps .col-md-4 > img {
+        display: none;
+    }
+    .rexchange #re_bottom .right {
+        clear: both;
+    }
+    .rexchange #callout {
+        height: auto;
+    }
+    .exchange-step-section > h2,
+    .exchange-step-section > h3 {
+        text-align: center;
+    }
+    #callout .callout_divider,
+    #holiday .callout_divider {
+        width: auto;
+    }
+    .compf-sandal-text .comf-right > h2 {
+        text-align: left;
+    }
+    .compf-sandal-text .comf-right > p {
+        text-align: left;
+    }
+    .compf-sandal-text .comf-right .cm-btn,
+    .compf-sandal-text .comf-right .csrgtxt {
+        text-align: left;
+    }
+    .new-arrivals .hero {
+        height: auto;
+    }
+    .hsp-onmobile-mob,
+    .newarrival-mob,
+    .sec-for-mob,
+    .comfortable-sandals .cfsm-mobile {
+        display: block;
+    }
+    .hsp-onmobile-desk,
+    .newarrival-desktop,
+    .sec-for-desk,
+    .comfortable-sandals .cfsm-desktop {
+        display: none;
+    }
+    .newarrival-mob .title {
+        color: rgb(255, 70, 33);
+    }
+    .newarrival-mob {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .new-ar-vedio,
+    .new-arrivals .toppin {
+        height: 450px;
+    }
+    /**********************************/
+}
+@media screen and (max-width: 767px) {
+    .walk-live-banner {
+        background-color: rgb(250, 248, 249);
+        background-image: none;
+    }
+    .move-walk-live .banner-text {
+        width: 100%;
+    }
+    .move-walk-live .walkinbenifits .image-container,
+    .move-walk-live .walkinbenifits .image-container {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .move-walk-live .colorblock .content {
+        margin-bottom: 10px;
+    }
+    .page-plantar {
+        text-align: center;
+    }
+    .tips-col .tips-wrapper img {
+        float: none;
+    }
+    #footnote {
+        width: 100%;
+    }
+    .page-ortheel-technology {
+        padding: 20px 15px;
+    }
+    #steps {
+        text-align: center;
+    }
+    #steps .step_section > img {
+        float: none;
+        margin: 0 auto;
+        max-width: 100px;
+        width: auto;
+    }
+    .step_section .step_subhead {
+        display: block;
+        font-weight: bold;
+    }
+    .step_section {
+        float: left;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .elevated-support {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .innovation {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .es-supportive-style .text-col .button-label {
+        font-size: 16px;
+    }
+    .page-slipper .full-width-background.introduction {
+        background-size: cover;
+    }
+    .new-arrivals .button-list .button-link:nth-child(1) {
+        float: none;
+    }
+    .new-arrivals .button-list .button-link {
+        display: block;
+        float: none;
+        margin: 10px auto;
+        padding: 5px 24px;
+        width: 80%;
+    }
+    .whatnew .picture-container .picture-links .link.caballo {
+        bottom: 30px;
+        left: 100px;
+    }
+    .whatnew .picture-container .picture-links .link.bria {
+        right: 100px;
+    }
+    .new-arrivals .button-list {
+        width: 100%;
+    }
+    .about-vionic-page .wide-top h1 {
+        font-size: 30px;
+    }
+    .abtorthotics.wide-top h1 {
+        font-size: 30px;
+    }
+    .tide-family-page .tftxt > h2 {
+        font-size: 30px;
+    }
+    .ortho-cozi-cmfrt {
+        background-size: cover;
+    }
+    .ocozi-txt {
+        color: #fff;
+    }
+    .gift-banner-text {
+        padding: 30px 0;
+    }
+    /**********orthoheel-technology 1-20-2017*************/
+    
+    .page-ortheel-technology {
+        text-align: left;
+    }
+    .page-ortheel-technology #na_header {
+        text-align: left;
+    }
+    .page-ortheel-technology #na p,
+    .page-ortheel-technology #na h2,
+    .page-ortheel-technology #na_body .na_right img,
+    .page-ortheel-technology #na a {
+        padding-left: 0;
+    }
+    .page-ortheel-technology #na_header {
+        margin-bottom: 20px;
+    }
+    .page-ortheel-technology #na .btn {
+        display: table;
+        margin: 10px auto;
+        min-width: 400px;
+    }
+    .page-ortheel-technology #na_footer {
+        margin-top: 0;
+        text-align: left;
+        padding: 20px 0;
+    }
+    .page-ortheel-technology #na_footer .na_left img {
+        margin: 0;
+        text-align: left;
+    }
+    .page-ortheel-technology #na_footer .na_left {
+        padding-left: 0;
+    }
+    .page-ortheel-technology #na h1 {
+        line-height: 30px;
+    }
+    .page-ortheel-technology #na_footer .na_left {
+        border: 0px;
+    }
+    .es-supportive-style .text-col img {
+        display: none;
+    }
+    .gift-patato-text .gift-patato-right .gphead {
+        display: none;
+    }
+    .gphead,
+    .gfthead,
+    .gfthead1 {
+        background: none;
+        min-height: auto;
+        padding-bottom: 20px;
+    }
+    .gphead > h2,
+    .gfthead > h2,
+    .gfthead1 > h2,
+    .gphead > p,
+    .gfthead > p,
+    .gfthead1 > p,
+    .gphead .shop-btn,
+    .gfthead a,
+    .gfthead1 a {
+        padding-left: 0;
+    }
+    .gfthead {
+        margin-top: 0 !important;
+    }
+    .page-slipper .testimonial .category-links li {
+        width: 100%;
+    }
+    .page-slipper .testimonial .category-links {
+        padding: 0;
+    }
+    /**************************/
+    
+    .fasciitis .shop-button {
+        min-width: 420px;
+    }
+    .relief .rleft {
+        text-align: left;
+    }
+    .page-plantar .rlright {
+        text-align: left;
+    }
+    .page-plantar .tips-col .tips-wrapper img {
+        float: left;
+    }
+    .plantar .fasciitis {
+        text-align: left;
+    }
+    .fasciitis .shop-button {
+        text-align: center;
+    }
+    .relief .rleft h2,
+    .relief .rleft .alignment-box-title-1,
+    .relief .rlright h3 {
+        font-size: 16px;
+    }
+    .findhead h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .findleft h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .findleft ul li {
+        padding: 0 5px !important;
+    }
+    .outfleft .shop-links a,
+    .outfright .shop-links a {
+        font-size: 12px;
+    }
+    .findright h2,
+    .walkto h2 {
+        font-size: 16px;
+    }
+    .lmore,
+    .findright .shop-btn {
+        font-size: 18px;
+    }
+    .new-arrivals .hero {
+        height: 400px;
+    }
+    .new-arrivals .hero .title {
+        font-size: 28px;
+        line-height: 38px;
+        padding-top: 20px;
+    }
+    .standard-body .full-width .fornw-mb .container {
+        padding: 0 10px 0 10px;
+    }
+    .new-arrivals .button-list .button-link {
+        margin: 12px auto;
+        padding: 0px 10px;
+        width: 80%;
+        height: 24px;
+    }
+    .new-arrivals .button-list {
+        margin: 0 auto;
+        width: 100%;
+        -webkit-padding-start: 0px !important;
+        -moz-padding-start: 0px !important;
+    }
+    .new-arrivals .responsive-supportive .title {
+        padding-top: 24px;
+    }
+    .new-arrivals .supporting-copy-2 {
+        margin-top: 34px;
+    }
+    .new-arrivals .fornw-mb {
+        margin-bottom: 0px;
+    }
+    .new-ar-vedio,
+    .new-arrivals .toppin {
+        height: 435px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .ona-imgcol a {
+        font-size: 18px;
+        left: 0;
+        right: 0;
+        bottom: 40px;
+    }
+    .gift-guide .gift-banner {
+        background-size: cover;
+    }
+    .page-ortheel-technology .quote:before {
+        left: 20px;
+    }
+    .page-ortheel-technology .quote:after {
+        right: 20px;
+        bottom: 70px;
+    }
+}
+@media screen and (max-width: 480px) {
+  	.smart-style {
+		padding-left: 10px;
+    }  
+    .page-slipper .full-width-background.introduction .title {
+        font-size: 26px;
+        line-height: 36px;
+        padding-top: 20px;
+    }
+    .page-slipper .testimonial .category-links li {
+        width: 100%;
+    }
+    .women-shipper-top .text-col .supporting-copy {
+        margin-left: 0;
+    }
+    .women-shipper-top .text-col a {
+        padding-left: 0;
+    }
+    .findleft ul li {
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+    .findright h2,
+    .walkto h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .outfleft .shop-links a,
+    .outfright .shop-links a {
+        font-size: 14px;
+        max-width: 100%;
+        width: 80%;
+        font-style: normal;
+        min-width: 100%;
+    }
+    .new-arrivals .button-list .button-link {
+        font-size: 12px;
+        padding: 5px 10px;
+        width: 100%;
+    }
+    .new-arrivals .responsive-supportive .picture-links .link.ngage {
+        left: 0;
+        padding-left: 0;
+        padding-top: 0;
+        top: 0;
+    }
+    .new-arrivals .responsive-supportive .picture-links .link.elation {
+        left: 10px;
+        top: 220px;
+    }
+    .espadrilles .picture-links .link.valeri {
+        left: 10px;
+    }
+    .espadrilles .picture-links .link.calypso {
+        left: -100px;
+        top: 500px;
+    }
+    .espadrilles .picture-links .link.tansy {
+        right: -30px;
+    }
+    .whatnew .picture-container .picture-links .link.bria {
+        right: 0;
+        top: 21%;
+    }
+    .whatnew .picture-container .picture-links .link.caballo {
+        bottom: 75px;
+        left: -12px;
+    }
+    .about-vionic-page .wide-top h1 {
+        font-size: 24px;
+    }
+    .about-vionic-page .science-text > h2 {
+        font-size: 20px;
+    }
+    .about-vionic-page .trusted-and-approved .title {
+        font-size: 22px;
+    }
+    .comfortable-sandals .comp-btn {
+        font-size: 12px;
+        margin: 20px 10px;
+    }
+    .comfortable-sandals .comf-right > h2,
+    .comfortable-sandals .csotxt .csoleft > h2 {
+        font-size: 16px;
+    }
+    .comfortable-sandals .csotxt .csoleft > a {
+        font-size: 18px;
+        line-height: 18px;
+        padding-bottom: 10px;
+    }
+    .comfortable-sandals .csotxt .csortxt {
+        padding-left: 0;
+    }
+    .comfortable-sandals .cs-ortho {
+        padding-top: 10px;
+    }
+    .comfortable-sandals .comf-left > h2 {
+        font-size: 20px;
+    }
+    .csoright {
+        text-align: center;
+    }
+    .heel-study-page .hs-header > h2 {
+        font-size: 22px;
+    }
+    .heel-study-page .hs-header > span {
+        font-size: 18px;
+    }
+    .heel-study-left > h2 {
+        font-size: 16px;
+    }
+    .gift-guide .gptesti .quote,
+    .heel-study-benifits .testi .quote,
+    .our-orthotics-page .testi .quote {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .heel-study-benifits .testi .quote::after {
+        display: none;
+    }
+    .heel-study-benifits .testi .quote::before,
+    .heel-study-benifits .testi .quote::after {
+        font-size: 90px;
+    }
+    .heel-study-page .quote {
+        width: 365px;
+        background-size: 365px 130px;
+    }
+    .abtorthotics.wide-top h1 {
+        font-size: 24px;
+    }
+    .abtorthotics .orthotics-btn-wrapper .shop-btn {
+        padding: 7px 20px;
+    }
+    .ortho-grey-box > p {
+        font-size: 18px;
+    }
+    .aop-gb-right > h2 {
+        font-size: 18px;
+    }
+    .our-orthotics-page .testi .quote::after {
+        display: none;
+    }
+    .tide-family-page .tftxt > h2 {
+        font-size: 22px;
+    }
+    .tft-left .tftxt h3,
+    .tfprodcol .tfprodcoltxt h2 {
+        font-size: 18px;
+    }
+    .tft-imgcol .TideII {
+        bottom: 10px;
+    }
+    .crowd-fav-txt > h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .crowd-fav-txt > span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Tidelnk {
+        bottom: -15%;
+        left: 35%;
+    }
+    .oheel-nwarrival {
+        padding-top: 200px;
+    }
+    .ona-imgcol a {
+        font-size: 18px;
+        left: 0;
+        right: 0;
+        bottom: 40px;
+    }
+    .oheel-testi > p {
+        padding: 0;
+    }
+    .ocozi-imgcol {
+        width: 60%;
+    }
+    .ocozi-imgcol > a {
+        bottom: 45px;
+    }
+    .oh-solestory-txt > p {
+        font-size: 22px;
+    }
+    .oh-solestory-txt {
+        padding-top: 40px;
+    }
+    .oheel-bottom-txt > h2 {
+        font-size: 22px;
+    }
+    .gphead,
+    .gfthead,
+    .gfthead1 {
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+    .gphead > h2,
+    .gfthead > h2,
+    .gfthead1 > h2 {
+        font-size: 16px;
+    }
+    .gift-banner-text h2 {
+        font-size: 30px;
+    }
+    .gift-banner-text > p {
+        font-size: 14px;
+    }
+    /**********orthoheel-technology 1-20-2017*************/
+    
+    .page-ortheel-technology #na .btn {
+        font-size: 9px;
+        line-height: 14px;
+        min-width: 270px;
+    }
+    .page-ortheel-technology #na h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .page-ortheel-technology #na h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .page-ortheel-technology #na h1 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    /************************************************/
+    
+    .page-slipper .full-width-background.introduction .title {
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0;
+        padding-top: 0;
+    }
+    .page-slipper .full-width-background.introduction .supporting-copy {
+        font-size: 16px;
+    }
+    .fasciitis .shop-button {
+        font-size: 14px;
+    }
+    .abt-history .shop-btn-wrapper a {
+        font-size: 12px;
+    }
+    .about-vionic-page .wide-top h1 {
+        font-size: 18px;
+    }
+    .wide-top h2 {
+        font-size: 14px;
+    }
+    .new-arrivals .make-it-work .picture-container img {
+        height: auto;
+    }
+    .whatnew .picture-container {
+        height: 300px;
+    }
+    .new-arrivals .make-it-work {
+        height: auto;
+        margin-bottom: 18px;
+    }
+    .new-arrivals .hero .title {
+        font-size: 14px;
+        line-height: 0;
+        padding-top: 20px;
+    }
+    .standard-body .full-width .fornw-mb .container {
+        padding: 0 10px 0 10px;
+    }
+    .new-arrivals .button-list .button-link {
+        margin: 12px auto;
+        padding: 0px 10px;
+        width: 80%;
+        height: 24px;
+    }
+    .new-arrivals .button-list {
+        margin: 0 auto;
+        width: 100%;
+        -webkit-padding-start: 0px !important;
+        -moz-padding-start: 0px !important;
+    }
+    .new-arrivals .responsive-supportive .title {
+        padding-top: 24px;
+    }
+    .new-arrivals .supporting-copy-2 {
+        margin-top: 34px;
+    }
+    .new-arrivals .fornw-mb {
+        margin-bottom: 0px;
+    }
+    .newarrival-mob .title {
+        margin: 0;
+    }
+    .heel-study-right .link-karina {
+        bottom: 0;
+    }
+    .heel-study-right .link-nala {
+        bottom: 3%;
+    }
+    .new-ar-vedio,
+    .new-arrivals .toppin {
+        height: 180px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .new-ar-vedio,
+    .new-arrivals .toppin {
+        height: 229px;
+    }
+    .ona-imgcol {
+        width: 250px;
+        height: 250px;
+    }
+    .ona-imgcol a {
+        bottom: 40px;
+        font-size: 18px;
+        left: 0;
+        right: 0;
+    }
+    .home-shop-btn {
+        width: 160px;
+    }
+    .ocozi-imgcol > a {
+        left: 63px;
+    }
+    .ocozi-imgcol > a {
+        left: 60px;
+    }
+}
+@media screen and (max-width: 400px) {
+
+  /*.orthoheel-homepage {
+        max-width: 375px;
+    } REMOVE */ 
+    /*.col-md-6 .ona-left {
+        padding-top: 30px;
+    } REMOVE */
+    .style-content {
+        visibility: hidden;
+        display: none;
+    }
+    .oheel-bottom-txt {
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 375px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .ona-imgcol a {
+        bottom: 63px;
+        font-size: 16px;
+        left: 42px;
+    }
+    .ocozi-imgcol > a {
+        left: 35px;
+    }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: portrait) {
+    .onar-imgcol .onar-shopbtn {
+        left: 17% !important;
+    }
+    .fasciitis .shop-button {
+        min-width: 320px !important;
+    }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: landscape) {
+    .ona-imgcol a {
+        left: 135px;
+    }
+    .ocozi-imgcol > a {
+        left: 80px;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    .onar-imgcol .onar-shopbtn {
+        left: 10%;
+    }
+    .page-slipper .full-width-background.introduction {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        height: auto;
+    }
+    .fasciitis .shop-button {
+        min-width: 260px;
+    }
+    .new-ar-vedio,
+    .new-arrivals .toppin {
+        height: 180px;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+    .ona-imgcol a {
+        bottom: 70px;
+        left: 80px;
+    }
+    .onar-imgcol .onar-shopbtn {
+        left: 27%;
+    }
+    .ocozi-imgcol > a {
+        left: 80px;
+    }
+    .page-ortheel-technology #na .btn {
+        min-width: 360px;
+    }
+    .fasciitis .shop-button {
+        min-width: 320px;
+    }
+    .new-ar-vedio,
+    .new-arrivals .toppin {
+        height: 270px;
+    }
+}
